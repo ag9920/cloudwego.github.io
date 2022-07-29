@@ -1,4 +1,247 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CloudWeGo – CloudWeGo</title><link>/</link><description>Recent content on CloudWeGo</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Kitex Release v0.2.0</title><link>/blog/2022/02/24/kitex-release-v0.2.0/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate><guid>/blog/2022/02/24/kitex-release-v0.2.0/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CloudWeGo – CloudWeGo</title><link>/</link><description>Recent content on CloudWeGo</description><generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Hertz Release v0.2.0</title><link>/blog/2022/07/22/hertz-release-v0.2.0/</link><pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate><guid>/blog/2022/07/22/hertz-release-v0.2.0/</guid><description>
+&lt;h2 id="feature">Feature&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/124">#124&lt;/a>] feat: add option to remove hijackConnPool.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/116">#116&lt;/a>] feat: update for template.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/130">#130&lt;/a>] feat: add a warning log for invalid character in Cookie.Value.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/143">#143&lt;/a>] feat: custom signal to graceful shutdown&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/114">#114&lt;/a>] feat: release buffer in standard network method.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/112">#112&lt;/a>] feat: parse post args in bodystream.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/105">#105&lt;/a>] feat: client abstracts hostclient layer.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/92">#92&lt;/a>] feat: hz support windows.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/102">#102&lt;/a>] feat: client removes default retry logic.&lt;/li>
+&lt;/ul>
+&lt;h2 id="optimize">Optimize&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/111">#111&lt;/a>] optimize: pre-allocate slice when calling bytesconv.AppendHTTPDate.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/128">#128&lt;/a>] optimize: remove useless judgement.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/108">#108&lt;/a>] optimize: avoid parsing regular expression repeatedly.&lt;/li>
+&lt;/ul>
+&lt;h2 id="chore">Chore&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/125">#125&lt;/a>] Update pr-check.yml.&lt;/li>
+&lt;/ul>
+&lt;h2 id="fix">Fix&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/104">#104&lt;/a>] fix: use defer to guarantee that mutex will be unlocked.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/96">#96&lt;/a>] fix: ci exec /bin/license-eye: exec format error&lt;/li>
+&lt;/ul>
+&lt;h2 id="style">Style&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/103">#103&lt;/a>] style: fixed the typo &amp;ldquo;ungzipped&amp;rdquo; to &amp;ldquo;gunzipped&amp;rdquo;.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/90">#90&lt;/a>] style: use const var and remove duplicate type conversions.&lt;/li>
+&lt;/ul>
+&lt;h2 id="refactor">Refactor&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/94">#94&lt;/a>] refactor: use appendCookiePart to simplify code.&lt;/li>
+&lt;/ul>
+&lt;h2 id="docs">Docs&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/97">#97&lt;/a>] docs: use comma to separate &amp;amp;&amp;amp; remove extra space.&lt;/li>
+&lt;/ul></description></item><item><title>Blog: Hertz Release v0.1.0</title><link>/blog/2022/06/20/hertz-release-v0.1.0/</link><pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate><guid>/blog/2022/06/20/hertz-release-v0.1.0/</guid><description>
+&lt;h2 id="feature">Feature&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/31">#31&lt;/a>] feat: close connection after responding to the short-connection request.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/44">#44&lt;/a>] feat: add the VisitAllCustomHeader method.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/59">#59&lt;/a>] feat: support windows.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/70">#70&lt;/a>] feat: add code generator hz.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/64">#64&lt;/a>] feat: add adaptor for Hertz Request &amp;amp; Response to net/http Request &amp;amp; ResponseWriter.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/45">#45&lt;/a>] feat: add ctx.Body().&lt;/li>
+&lt;/ul>
+&lt;h2 id="optimize">Optimize&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/57">#57&lt;/a>] optimize: use http.TimeFormat as layout for http date, which can avoid more copying.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/58">#58&lt;/a>] optimize: add remote address to the error log when server processes the error.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/41">#41&lt;/a>] optimize: use CtxErrorf instead of ‘Errorf’ when server panic.&lt;/li>
+&lt;/ul>
+&lt;h2 id="refactor">Refactor&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/37">#37&lt;/a>] refactor: unify the entry of setting request options to prevent options uninitialized from causing panic.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/52">#52&lt;/a>] refactor: omit redundant nil check around loop.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/33">#33&lt;/a>] refactor: simplify code in AddMissingPort.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/27">#27&lt;/a>] refactor: use errors.NewPublic rather than fmt.Errorf.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/34">#34&lt;/a>] refactor: remove fshandler and related tests.&lt;/li>
+&lt;/ul>
+&lt;h2 id="style">Style&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/29">#29&lt;/a>] style(*): fix typos.&lt;/li>
+&lt;/ul>
+&lt;h2 id="docs">Docs&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/60">#60&lt;/a>] docs: add icon in README.md and README_cn.md.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/hertz/pull/54">#54&lt;/a>] docs: Update README.md.&lt;/li>
+&lt;/ul></description></item><item><title>Blog: Kitex Release v0.3.2</title><link>/blog/2022/06/02/kitex-release-v0.3.2/</link><pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate><guid>/blog/2022/06/02/kitex-release-v0.3.2/</guid><description>
+&lt;h2 id="feature">Feature&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/473">#473&lt;/a>] feat(grpc): support short connection for gRPC unary.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/431">#431&lt;/a>] feat(limiter): extend outside limiter implementation and fix problems of rate limiter of multiplexed server.&lt;/li>
+&lt;/ul>
+&lt;h2 id="optimize">Optimize&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/465">#465&lt;/a>] optimize(ttheader): set remote address for client-side after decoding TTHeader.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/466">#466&lt;/a>] optimize(mux): wrap ErrReadTimeout with ErrRPCTimeout in mux scenario.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/425">#425&lt;/a>] optimize(limiter): promise tokens of the first second don&amp;rsquo;t exceed limit significantly.&lt;/li>
+&lt;/ul>
+&lt;h2 id="bugfix">Bugfix&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/485">#485&lt;/a>] fix(grpc): fix the incorrect integer conversion.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/474">#474&lt;/a>] fix(trans): fix detection handler panic when conn inactive early.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/445">#445&lt;/a>] fix(retry): race problems of callTimes in retry and some fields of rpcStats.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/471">#471&lt;/a>] fix(retry): callCosts race in backup request.&lt;/li>
+&lt;/ul>
+&lt;h2 id="test">Test&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/404">#404&lt;/a>] test: add unit test for pkg/retry.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/439">#439&lt;/a>, &lt;a href="https://github.com/cloudwego/kitex/pull/472">#472&lt;/a>] test: add unit test for pkg/remote/remotecli.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/462">#462&lt;/a>, &lt;a href="https://github.com/cloudwego/kitex/pull/457">#457&lt;/a>] test: add unit test for pkg/remote/trans/nphttp2/grpc.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/420">#420&lt;/a>] test: add ut for pkg/remote/trans/nphttp2.&lt;/li>
+&lt;/ul>
+&lt;h2 id="refactor">Refactor&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/464">#464&lt;/a>] refactor(ttheader): change protocol id of Kitex Protobuf in TTHeader and promise the change is compatible with the old version.&lt;/li>
+&lt;/ul>
+&lt;h2 id="chore">Chore&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/453">#453&lt;/a>, &lt;a href="https://github.com/cloudwego/kitex/pull/475">#475&lt;/a>] chore: upgrade netpoll and bytedance/gopkg.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/458">#458&lt;/a>] chore: fix ci reviewdog and pr ut didn&amp;rsquo;t run.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/454">#454&lt;/a>] chore: use self-hosted ci to optimize speed.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/449">#449&lt;/a>] chore: fix github issue template.&lt;/li>
+&lt;/ul>
+&lt;h2 id="style">Style&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/486">#486&lt;/a>] style(trans): add comment for detection trans handler.&lt;/li>
+&lt;/ul>
+&lt;h2 id="docs">Docs&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/482">#482&lt;/a>] docs: update FAQ of readme.&lt;/li>
+&lt;/ul>
+&lt;h2 id="dependency-change">Dependency Change&lt;/h2>
+&lt;ul>
+&lt;li>github.com/cloudwego/netpoll: v0.2.2 -&amp;gt; v0.2.4&lt;/li>
+&lt;/ul></description></item><item><title>Blog: Kitex Release v0.3.0</title><link>/blog/2022/04/29/kitex-release-v0.3.0/</link><pubDate>Fri, 29 Apr 2022 00:00:00 +0000</pubDate><guid>/blog/2022/04/29/kitex-release-v0.3.0/</guid><description>
+&lt;h2 id="feature">Feature&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/366">#366&lt;/a>, &lt;a href="https://github.com/cloudwego/kitex/pull/426">#426&lt;/a> ] feat(client): support warming-up for kitex client&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/395">#395&lt;/a> ] feat(mux): support gracefully shutdown in connection multiplexing&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/399">#399&lt;/a> ] feat(protobuf): add fastpb protocol API and support it in the pkg/remote/codec module&lt;/li>
+&lt;/ul>
+&lt;h2 id="optimise">Optimise&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/402">#402&lt;/a> ] optimize(connpool): export getCommonReporter in pkg/remote/connpool&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/389">#389&lt;/a> ] optimize(rpcinfo): fill TransportProtocol, PackageName fields into RPCInfo of the server side after decoding&lt;/li>
+&lt;/ul>
+&lt;h2 id="bugfix">Bugfix&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/413">#413&lt;/a> ] fix(mux): set PayloadCodec for sendMsg in NetpollMux trans handler to fix generic request codec error.&lt;a href="https://github.com/cloudwego/kitex/issues/411">issue #411&lt;/a>&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/406">#406&lt;/a> ] fix(grpc): fix the sending and receiving logic about http2 framer, such as preventing the peer unable to receive the framer in time&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/398">#398&lt;/a> ] fix(utils): fix the bug that Dump() func in ring.go can&amp;rsquo;t dump the accurate data in ring shards&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/428">#428&lt;/a> ] fix(trans): close connection when flush data fails to avoid memory leak&lt;/li>
+&lt;/ul>
+&lt;h2 id="tool">Tool&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/340">#340&lt;/a> ] tool(protobuf): redesign and implement new protobuf gen code called fastpb which doesn&amp;rsquo;t use reflection and only supports proto3&lt;/li>
+&lt;/ul>
+&lt;h2 id="chore">Chore&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/396">#396&lt;/a> ] chore: replace cespare/xxhash with xxhash3 from bytedance/gopkg&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/400">#400&lt;/a> ] chore: upgrade go version of workflow to 1.18&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/407">#407&lt;/a> ] chore: add a separate file to declare the use of gRPC source code&lt;/li>
+&lt;/ul>
+&lt;h2 id="test">Test&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/401">#401&lt;/a> ] test: add ut for kitex/server package&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/393">#393&lt;/a> ] test: add ut for pkg/remote/bound package&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/403">#403&lt;/a> ] test: add netpollmux unit test&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/401">#401&lt;/a> ] test: add klog unit test&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/392">#392&lt;/a> ] test(utils): add UT for utils and fix inaccurate err throw in json.go&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/373">#373&lt;/a>, &lt;a href="https://github.com/cloudwego/kitex/pull/432">#432&lt;/a>, &lt;a href="https://github.com/cloudwego/kitex/pull/434">#434&lt;/a> ] test(grpc): add gRPC transport unit tests, promoting the coverage to 76%&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/424">#424&lt;/a> ] test(transmeta): supplementary of unit tests for http2 and ttheader implementations of MetaHandler/StreamingMetaHandler in pkg/transmeta.&lt;/li>
+&lt;/ul>
+&lt;h2 id="dependency-change">Dependency Change&lt;/h2>
+&lt;ul>
+&lt;li>github.com/cloudwego/netpoll: v0.2.0 -&amp;gt; v0.2.2&lt;/li>
+&lt;li>github.com/bytedance/gopkg: 20210910103821-e4efae9c17c3 -&amp;gt; 20220413063733-65bf48ffb3a7&lt;/li>
+&lt;/ul></description></item><item><title>Blog: Netpoll Release v0.2.2</title><link>/blog/2022/04/28/netpoll-release-v0.2.2/</link><pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate><guid>/blog/2022/04/28/netpoll-release-v0.2.2/</guid><description>
+&lt;h2 id="improvement">Improvement&lt;/h2>
+&lt;ul>
+&lt;li>Fix: reduce costs of SetNumLoops&lt;/li>
+&lt;li>Chore: update mcache and ci&lt;/li>
+&lt;li>Feat: recycle caches when LinkBuffer is closed&lt;/li>
+&lt;/ul>
+&lt;h2 id="fix">Fix&lt;/h2>
+&lt;ul>
+&lt;li>Fix: send&amp;amp;close ignored by OnRequest&lt;/li>
+&lt;li>Fix: fill lost some data when read io.EOF&lt;/li>
+&lt;li>Fix: check is active when flush&lt;/li>
+&lt;/ul>
+&lt;h2 id="doc">Doc&lt;/h2>
+&lt;ul>
+&lt;li>Doc: update guide.md&lt;/li>
+&lt;li>Doc: restate the definition of Reader.Slice&lt;/li>
+&lt;li>Doc: fix replace examples url&lt;/li>
+&lt;/ul>
+&lt;h2 id="revert">Revert&lt;/h2>
+&lt;ul>
+&lt;li>Revert &amp;ldquo;feat: change default number of loops policy (#31)&amp;rdquo;&lt;/li>
+&lt;/ul></description></item><item><title>Blog: An Article to Learn About ByteDance Microservices Middleware CloudWeGo</title><link>/blog/2022/03/25/an-article-to-learn-about-bytedance-microservices-middleware-cloudwego/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>/blog/2022/03/25/an-article-to-learn-about-bytedance-microservices-middleware-cloudwego/</guid><description>
+&lt;p>In the cloud native era, infrastructures across all industries are undergoing a microservice architecture transformation, and all internet companies are concerned about R&amp;amp;D efficiency and stability. Developers who want to build microservices can never forgo supporting microservice governance, such as governance platforms, monitoring, tracing, registration/discovery, configuration centers, service mesh, etc. With Golang gradually becoming the dominating programming language in the cloud native era, there is a strong demand for Golang-based microservices middleware in the open source community.&lt;/p>
+&lt;p>ByteDance also faces these problems. In 2014, ByteDance introduced Golang to solve the high concurrency problem faced by push services with persistent connections; and two years later, the technical team launched a framework called Kite based on Golang, and rolled out Ginex after lightly encapsulating the open-source project Gin. In QCon 2021, Guozhu Cheng, the head of ByteDance&amp;rsquo;s infrastructure/service framework team, said that the launch of these two original frameworks has greatly promoted Golang&amp;rsquo;s adoption within the company.&lt;/p>
+&lt;p>However, due to evolutions of related technologies and demanding business requirements, the deeply coupled Kite and Thrift are difficult to be transformed and improved on the network model or codec level, and therefore continuous feature delivery will inevitably cause code bloat and blocked iterations. In the second half of 2019, the ByteDance technical team began to redesign the Golang RPC framework. At the same time, in order to get better performance in network communication, support connection multiplexing and sense connection status, they developed their own network library Netpoll.&lt;/p>
+&lt;p>ByteDance refactored Kite as Kitex, designed revolving around performance and scalability, and released it in October 2020 for internal use. As of September 2021, there are 30, 000+ online microservices using Kitex, most of which can benefit from boosted CPU and alleviated latency after using the new framework.&lt;/p>
+&lt;p>&amp;ldquo;After Kitex became widely used within ByteDance, we decided to gradually entail our practice open-source revolving around microservices and keep it in line with the outside.&amp;rdquo; ByteDance CloudWeGo technical experts said, &amp;ldquo;But there are many microservice-related projects, and each project is open-source alone, which is not friendly to external users. So we named the project as CloudWeGo and gradually enabled the entire internal microservice system to be open-source, using open-source libraries internally and externally. Each project iterates mainly with open-source libraries.&amp;rdquo;&lt;/p>
+&lt;p>On September 8, 2021, ByteDance officially announced the open source CloudWeGo.&lt;/p>
+&lt;h2 id="cloudwego">CloudWeGo&lt;/h2>
+&lt;p>CloudWeGo is a set of microservice middleware developed by ByteDance with high performance, strong scalability and stability. It focuses on microservice communication and governance, and meets the demands of different businesses in various scenarios. CloudWeGo also focuses on integration with the cloud native ecology, supporting K8s registry, Prometheus, and OpenTracing.&lt;/p>
+&lt;p>CloudWeGo currently has 4 repositories: Kitex, Netpoll, Thriftgo and netpoll-http2, featuring the RPC framework – Kitex and the network library – Netpoll. Kitex is equipped with built-in governance strategies and expansion interfaces for frictionless integrations into the microservice system. Netpoll is aimed at scenarios where demand high performance.&lt;/p>
+&lt;p>Each component of CloudWeGo can be used separately. &amp;ldquo;Many people worry that Kitex would be a heavy-weight framework. In fact, Kitex does not couple any other component including Netpoll. Users can also optionally integrate some of Kitex&amp;rsquo;s built-in governance functions. Netpoll is a network library that can work separately with other RPC frameworks and HTTP frameworks. Thriftgo is a Thrift IDL parser and code generator. It is also a stand-alone tool and provides a customizable, plug-in mechanism for the code generation.&amp;rdquo; ByteDance CloudWeGo technical experts said, &amp;ldquo;We will continue to move all other internal projects to the open-source track, such as HTTP framework Hertz, shared memory-based IPC communication library ShmIPC, etc., to provide microservices support for wider scenarios.&amp;rdquo;&lt;/p>
+&lt;h2 id="advantagesdisadvantages">Advantages&amp;amp;disadvantages&lt;/h2>
+&lt;p>The close connection between microservice middleware and business is the foundation of the entire business architecture; so the selection of technology requires special care. Our selection criteria mainly depend on two aspects：&lt;/p>
+&lt;ul>
+&lt;li>It can address practical business problems and is ready for production with massive traffic, and is easy to use, governable, mature and stable.&lt;/li>
+&lt;li>The technology is open-source; and the number of Stars, project activity (Issues &amp;amp; PRs), document update frequency, and release cycle of the open-source project are stable and reliable.&lt;/li>
+&lt;/ul>
+&lt;p>The advantage of CloudWeGo is that it has already been tested with massive traffic amid the real production deployment in ByteDance. Providing a practical example that can be referred to attest for its stability and reliability. &amp;ldquo;One of the characteristics of CloudWeGo is high performance, but at the beginning of the development, we often confront performance bottlenecks. So we improved network library and Thrift serialization specifically. The optimization process was prolonged, with a bottleneck taking a long time to test and fine-tune repetitively. We have also published two articles &amp;ldquo;ByteDance Go RPC Framework Kitex Performance Optimization Practice&amp;rdquo; and &amp;ldquo;ByteDance on the Go Network Library Practice&amp;rdquo; to share our optimization practices.&amp;rdquo; ByteDance CloudWeGo technical experts said.&lt;/p>
+&lt;p>Compared to similar projects, the CloudWeGo R&amp;amp;D team considered not only its performance and strong scalability, but also ease of use. &amp;ldquo;Taking Kitex as an example, it is currently inferior to some open-source frameworks in terms of the diversity of governance functions. But from the perspective of performance, scalability, and user experience, Kitex showcases the following advantages. Kitex supports a variety of protocols, because it mainly applies Thrift. Kitex has also made performance improvements for Thrift support. If using Thrift, Kitex will be the best choice.&amp;rdquo; ByteDance CloudWeGo technical experts remark on the benefits of using CloudWeGo.&lt;/p>
+&lt;p>In addition, in order to uphold a key principle of maintaining one set of code internally and externally, iterating them as a whole, ByteDance has directly migrated projects without coupling the internal ecology to the CloudWeGo open-source library, and adapt the internal dependency for the open-source library. For Kitex, which requires integrated governance functions into the microservice system, the open-source team split the internal and external code, migrating Kitex&amp;rsquo;s core code to the open source library. The internal library encapsulates a shell to ensure that updates are transparent to users. And the modules that integrate internal governance features are retained in the internal library as extensions of Kitex. In the future, ByteDance will continue to migrate new features that have been internally validated for stability to open-source libraries.&lt;/p>
+&lt;p>Inside ByteDance, in order to facilitate Kitex&amp;rsquo;s integration into the internal governance system, Kitex provides a Byted Suite extension, integrating the internal registry, configuration center, monitoring, etc. Internal Service Mesh has been implemented on a large scale. Kitex determines whether it is a Service Mesh mode based on the information of the service, if so, Kitex will uninstall the governance components, and the governance functions will sink into Service Mesh. As an attempt to speed up the performance of communication with Service Mesh, Kitex separately extends the TransHandler module to integrate the self-developed ShmIPC, and communicates with Service Mesh through ShmIPC. Subsequently, Kitex&amp;rsquo;s extension to ShmIPC and the ShmIPC library will also be open-source.&lt;/p>
+&lt;p>However, CloudWeGo has its own limitations. ByteDance CloudWeGo technical experts told InfoQ: The richness and diversity of CloudWeGo functions are not enough, pending further improvement. ByteDance&amp;rsquo;s technical team will solicit the needs of external users, provide support, and welcome more developers to contribute. At present, the performance advantages of Kitex Server are obvious, but the performance of the Client side with Server, and we will focus on improving the Client in the future. The primary goal is to make default scenarios compatible with each other, with negligible performance overhead. &amp;ldquo;The launch of the open source has attracted public attention, and we observed some stress test comparisons showing that Kitex performance was mediocre, mainly because the stress test scenario was not aligned. We will consider providing better performance strategies for the open-source community.&amp;rdquo;&lt;/p>
+&lt;h1 id="open-source-is-not-about-completing-kpis">Open Source is Not About Completing KPIs&lt;/h1>
+&lt;p>At present, CloudWeGo is dynamic in the community. Before the official announcement of open source, Kitex gained 1.2k stars and Netpoll gathered 700+ stars within one month. After ByteDance officially announced the open source CloudWeGo on September 8, as of early October, the overall number of stars in the project has exceeded 4,800 and has been included in the CNCF landscape. The overall star number of the project has exceeded 4800, and it has been included in the CNCF landscape.&lt;/p>
+&lt;p>&lt;img src="/img/blog/article_to_learn_about_CloudWeGo/image.png" alt="image">&lt;/p>
+&lt;p>ByteDance CloudWeGo technical experts said, &amp;ldquo;We have received a lot of feedback from the community. For example, many users call for Protobuf. In response to this feedback, we plan to implement Kitex performance optimizations for Protobuf support. We welcome you to submit issues and PRs to CloudWeGo. We&amp;rsquo;ve also set up customized support for enterprises and organizations to use Kitex and Netpoll, and hope that CloudWeGo will truly become a universal, available open-source solution to microservices communication and governance in the future.&amp;rdquo;&lt;/p>
+&lt;p>Regarding &amp;ldquo;open source&amp;rdquo;, ByteDance CloudWeGo technology experts have a clear vision: &amp;ldquo;Completing KPIs is not the purpose of this open source project.&amp;rdquo; A healthy open-source model focuses on open sharing, co-growth, and long-termism. CloudWeGo recognizes individual participation, community values, and the sense of belonging brought by open source community.&amp;quot;&lt;/p>
+&lt;p>&amp;ldquo;As a beneficiary and participant of the open source project, ByteDance also hopes to become a promoter and leader of the open source project. It hopes to gift excellent internal practices to the open source community, build and enrich the open source ecosystem in the infrastructure field together with the community, and provide wider and better choices for developers and enterprises for their technology selection.&amp;rdquo; ByteDance CloudWeGo technology experts said, &amp;ldquo;We embrace the open source culture, listen to community feedback, actively meet user&amp;rsquo;s needs, provide Chinese and English documentations, and develop guidelines quickly, to facilitate and support community developers to understand CloudWeGo and participate in contributions.&amp;rdquo;&lt;/p>
+&lt;p>&lt;strong>Project address:&lt;/strong> &lt;a href="https://github.com/cloudwego">https://github.com/cloudwego&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Interviewees:&lt;/strong> ByteDance CloudWeGo technical experts (Guangming Luo, Rui Yang, Ziang Ma).&lt;/p>
+&lt;p>&lt;strong>Reference link:&lt;/strong> &lt;a href="https://www.infoq.cn/article/9ixlu4kjapg3ufhymm3j">https://www.infoq.cn/article/9ixlu4kjapg3ufhymm3j&lt;/a>&lt;/p></description></item><item><title>Blog: Kitex Release v0.2.1</title><link>/blog/2022/03/24/kitex-release-v0.2.1/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>/blog/2022/03/24/kitex-release-v0.2.1/</guid><description>
+&lt;h2 id="bugfix">Bugfix&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/383">#383&lt;/a> ] fix(generic): detect circular dependency in thrift IDL when using generic call.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/359">#359&lt;/a> ] fix(tool): fix streaming import missing in protobuf combine service.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/363">#363&lt;/a> ] fix(client): fix a bug that sequence ID of oneway requests are not encoded and lower the loss rate of oneway requests.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/367">#367&lt;/a> ] fix(generic/tool): combine services may have duplicate loading of the same service.&lt;/li>
+&lt;/ul>
+&lt;h2 id="optimise">Optimise&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/362">#362&lt;/a> ] optimize(diagnosis): lbcache is global, it doesn&amp;rsquo;t need register ProbeFunc for diagnosis.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/374">#374&lt;/a> ] optimize(rpcinfo): RPCInfo.To().Tag() use instance tag instead of remoteinfo tag firstly.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/355">#355&lt;/a> ] optimize(connpool): adjust minMaxIdleTimeout to 2s.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/354">#354&lt;/a> ] optimize(hook): adding locks to onServerStart and onShutdown, acquire the corresponding lock when doing some read and write operations like RegisterStartHook and range in server.Run().&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/331">#331&lt;/a> ] optimize(discovery): add error definition ErrInstanceNotFound which is used in the service discovery module.&lt;/li>
+&lt;/ul>
+&lt;h2 id="refactor">Refactor&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/352">#352&lt;/a> ] refactor(event): delete additional atomic operations and replace them with a normal operation.&lt;/li>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/343">#343&lt;/a> ] refactor(loadbalancer): merge BuildWeightedVirtualNodes function into buildVirtualNodes function, make it easier to maintain.&lt;/li>
+&lt;/ul>
+&lt;h2 id="chore">Chore&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/376">#376&lt;/a> ] chore: upgrade choleraehyq/pid for Go 1.18.&lt;/li>
+&lt;/ul>
+&lt;h2 id="docs">Docs&lt;/h2>
+&lt;ul>
+&lt;li>[&lt;a href="https://github.com/cloudwego/kitex/pull/364">#364&lt;/a> ] docs: update readme with new blog.&lt;/li>
+&lt;/ul></description></item><item><title>Blog: Kitex Release v0.2.0</title><link>/blog/2022/02/24/kitex-release-v0.2.0/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate><guid>/blog/2022/02/24/kitex-release-v0.2.0/</guid><description>
 &lt;h2 id="feature">Feature&lt;/h2>
 &lt;ul>
 &lt;li>Feat(grpc): support options to set the internal params of gRPC&lt;/li>
@@ -145,7 +388,7 @@ but in handler.go kitex use &amp;ldquo;{{.ServiceName}}{{.RawName}}Server&amp;rd
 &lt;h2 id="docs">Docs&lt;/h2>
 &lt;ul>
 &lt;li>Fix link in readme_zh&lt;/li>
-&lt;li>Remove docs; mantain cloudwego.io only&lt;/li>
+&lt;li>Remove docs; maintain cloudwego.io only&lt;/li>
 &lt;/ul>
 &lt;h2 id="netpoll-api-change">Netpoll API Change&lt;/h2>
 &lt;ul>
@@ -324,24 +567,24 @@ We also encourage developers to use the testing guide provided in this article, 
 &lt;p>As an important part of R&amp;amp;D system, RPC framework carries almost all service traffics. This paper will briefly introduce the design and practice of the ByteDance in-house developed network library &amp;ndash; Netpoll, as well as the problems and solutions that arise during our practices. This article can be used as a reference to help the tech-community&amp;rsquo;s further practices and experiments.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="preface">Preface&lt;/h2>
-&lt;p>As an important part of the R&amp;amp;D system, RPC framework carries almost all service traffics. As Golang is used more and more widely in ByteDance, the business has higher requirements on its framework. However, the &amp;ldquo;Go net&amp;rdquo; library cannot provide sufficient performance and control to support the business, notably inability to perceive the connection state, low utilization due to the large number of connections, and inability to control the number of goroutines. In order to obtain control of the network layer, it&amp;rsquo;s necessary to make some exploration prospectively, and finally empower the business. The Service Framework Team launched a new self-developed network library &amp;ndash; &amp;ldquo;Netpoll&amp;rdquo; based on &amp;ldquo;epoll&amp;rdquo;, and developed a new-generation Golang framework &amp;ndash; &amp;ldquo;Kitex&amp;rdquo; based on &amp;ldquo;Netpoll&amp;rdquo;.&lt;/p>
-&lt;p>Since there are many articles discussing the principles of &amp;ldquo;epoll&amp;rdquo;, this article will briefly introduce the design of &amp;ldquo;Netpoll&amp;rdquo; only. We&amp;rsquo;ll then try to put together some of our practices regarding &amp;ldquo;Netpoll&amp;rdquo;. Finally, we&amp;rsquo;ll share a problem we encountered during our practices and how we solved it. In the meantime, we welcome peers who are also interested in Golang and Go framework to join us!&lt;/p>
+&lt;p>As an important part of the R&amp;amp;D system, RPC framework carries almost all service traffics. As Golang is used more and more widely in ByteDance, the business has higher requirements on its framework. However, the &amp;ldquo;Go net&amp;rdquo; library cannot provide sufficient performance and control to support the business, notably inability to perceive the connection state, low utilization due to the large number of connections, and inability to control the number of goroutines. In order to take full control of the network layer, it&amp;rsquo;s necessary to make some exploration prospectively, and finally empower the business. The Service Framework Team launched a new self-developed network library &amp;ndash; &amp;ldquo;Netpoll&amp;rdquo; based on &amp;ldquo;epoll&amp;rdquo;, and developed a new-generation Golang framework &amp;ndash; &amp;ldquo;Kitex&amp;rdquo; based on &amp;ldquo;Netpoll&amp;rdquo;.&lt;/p>
+&lt;p>Since there are many articles discussing the principles of &amp;ldquo;epoll&amp;rdquo;, this article will briefly introduce the design of &amp;ldquo;Netpoll&amp;rdquo; only. We&amp;rsquo;ll then try to review some of our practices regarding &amp;ldquo;Netpoll&amp;rdquo;. Finally, we&amp;rsquo;ll share a problem we encountered during our practices and how we solved it. In the meantime, we welcome more peers who are interested in Golang and Go framework to join us!&lt;/p>
 &lt;h2 id="design-of-the-new-network-library">Design of the New Network Library&lt;/h2>
 &lt;h3 id="reactor---event-monitoring-and-the-core-of-scheduling">Reactor - Event Monitoring and the Core of Scheduling&lt;/h3>
-&lt;p>The core of &amp;ldquo;Netpoll&amp;rdquo; is the event monitoring scheduler &amp;ndash; &amp;ldquo;Reactor&amp;rdquo;, which uses &amp;ldquo;epoll&amp;rdquo; to monitor the &amp;ldquo;File Descriptor (fd)&amp;rdquo; of the connection and triggers the read, write and close events on the connection through the callback mechanism. &lt;br/>&lt;br>
+&lt;p>The core of &amp;ldquo;Netpoll&amp;rdquo; is the event monitoring scheduler &amp;ndash; &amp;ldquo;Reactor&amp;rdquo;, which uses &amp;ldquo;epoll&amp;rdquo; to monitor the &amp;ldquo;File Descriptor (fd)&amp;rdquo; of the connection and triggers the read, write and close events on the connection through the callback mechanism. &lt;br/>
 &lt;img src="/img/blog/bytedance_gonet_practice_img/reactor.png" alt="image">&lt;/p>
 &lt;h3 id="server---mainreactor--subreactor-implementation">Server - MainReactor &amp;amp; SubReactor Implementation&lt;/h3>
 &lt;p>Netpoll combines Reactors in a 1: N master-slave pattern:&lt;/p>
 &lt;ol>
-&lt;li>&amp;ldquo;MainReactor&amp;rdquo; mainly manages the &amp;ldquo;Listener&amp;rdquo;, responsible for monitoring ports and establishing new connections.&lt;/li>
+&lt;li>&amp;ldquo;MainReactor&amp;rdquo; mainly manages the &amp;ldquo;Listener&amp;rdquo;, and is responsible for monitoring ports and establishing new connections.&lt;/li>
 &lt;li>The &amp;ldquo;SubReactor&amp;rdquo; manages the &amp;ldquo;Connection&amp;rdquo;, listens all assigned connections, and submits all triggered events to the goroutine pool for processing.&lt;/li>
 &lt;li>&amp;ldquo;Netpoll&amp;rdquo; supports &amp;ldquo;NoCopy RPC&amp;rdquo; by introducing active memory management in I/O tasks and providing an &amp;ldquo;NoCopy&amp;rdquo; invocation interface to the upper layer.&lt;/li>
-&lt;li>Add a goroutine pool to centrally process I/O tasks, reducing number of goroutines and scheduling overhead.
+&lt;li>Add a goroutine pool to centrally process I/O tasks, reduce the number of goroutines and scheduling overhead.
 &lt;br/>&lt;/li>
 &lt;/ol>
 &lt;p>&lt;img src="/img/blog/bytedance_gonet_practice_img/server_reactor.png" alt="image">&lt;/p>
 &lt;h3 id="client---shares-the-capability-of-reactor">Client - Shares the Capability of Reactor&lt;/h3>
-&lt;p>SubReactor is shared between client and server. Netpoll also implements &amp;ldquo;Dialer&amp;rdquo; and provides the feature for establishing connections. On the client, similar to &amp;ldquo;net.Conn&amp;rdquo;, Netpoll provides underlaying support for &amp;ldquo;write -&amp;gt; wait read callback&amp;rdquo;.&lt;br>
+&lt;p>SubReactor is shared between the client and server. Netpoll implements &amp;ldquo;Dialer&amp;rdquo; and provides the function for establishing connections. On the client, similar to &amp;ldquo;net.Conn&amp;rdquo;, Netpoll provides underlying support for &amp;ldquo;write -&amp;gt; wait read callback&amp;rdquo;.
 &lt;br/>
 &lt;img src="/img/blog/bytedance_gonet_practice_img/client_reactor.png" alt="image">&lt;/p>
 &lt;h2 id="nocopy-buffer">Nocopy Buffer&lt;/h2>
@@ -351,13 +594,13 @@ We also encourage developers to use the testing guide provided in this article, 
 &lt;li>&lt;strong>Level Trigger (LT)&lt;/strong>. It is necessary to complete I/O actively after the event is triggered, and provides buffers directly to the upper code.&lt;/li>
 &lt;li>&lt;strong>Edge Trigger (ET)&lt;/strong>. You can choose to manage the event notification only (e.g. go net), with the upper layer code for I/O completion and buffers management.&lt;/li>
 &lt;/ul>
-&lt;p>Both ways have their advantages and disadvantages. &amp;ldquo;Netpoll&amp;rdquo; adopts the first strategy, with level trigger, it has better timeliness and higher fault tolerance rate. Active I/O can centralize memory usage and management, provide nocopy operation, and reduce GC. In fact, some popular open source network libraries, such as &amp;ldquo;easygo&amp;rdquo;, &amp;ldquo;evio&amp;rdquo;, &amp;ldquo;gnet&amp;rdquo;, etc. are also designed in this way.&lt;/p>
-&lt;p>However, using LT also introduces a problem, namely the additional concurrency overhead caused by the underlying active I/O and the concurrent buffer operations by the upper code. For example, there are concurrent read and write when I/O read(data)/write(buffer) and the upper code reads the buffer, vice versa. In order to ensure data correctness and avoid lock contention, existing open source network libraries usually adopt synchronous processing of buffer (&amp;ldquo;easygo&amp;rdquo;, &amp;ldquo;evio&amp;rdquo;) or provide a copy of buffer to the upper layer code (&amp;ldquo;gnet&amp;rdquo;), which are not suitable for business processing or have considerable copy overhead.&lt;/p>
+&lt;p>Both ways have their advantages and disadvantages. &amp;ldquo;Netpoll&amp;rdquo; adopts the first strategy, which has better timeliness and higher fault tolerance rate. Active I/O can centralize memory usage and management, provide nocopy operation, and reduce GC. In fact, some popular open-source network libraries, such as &amp;ldquo;easygo&amp;rdquo;, &amp;ldquo;evio&amp;rdquo;, &amp;ldquo;gnet&amp;rdquo;, etc. are also designed in this way.&lt;/p>
+&lt;p>However, using LT also brings another problem, namely the additional concurrency overhead caused by the underlying active I/O and the concurrent buffer operations by the upper code. For example, there are concurrent read and write when I/O read(data)/write(buffer) and the upper code reads the buffer, vice versa. In order to ensure data correctness and avoid lock contention, existing open-source network libraries usually adopt synchronous processing of buffer (&amp;ldquo;easygo&amp;rdquo;, &amp;ldquo;evio&amp;rdquo;) or provide a copy of buffer to the upper layer code (&amp;ldquo;gnet&amp;rdquo;), which are not suitable for business processing or have considerable copy overhead.&lt;/p>
 &lt;p>On the other hand, common buffer libraries such as &amp;ldquo;bytes&amp;rdquo;, &amp;ldquo;bufio&amp;rdquo;, and &amp;ldquo;ringbuffer&amp;rdquo; have problems such as &amp;ldquo;growth&amp;rdquo; requiring copy of data from the original array; capacity can only be expanded but can&amp;rsquo;t be reduced; occupying a large amount of memory etc. Therefore, we hope to introduce a new form of buffer to solve the two problems above.&lt;/p>
 &lt;h3 id="the-design-and-advantages-of-nocopy-buffer">The Design and Advantages of Nocopy Buffer&lt;/h3>
-&lt;p>Nocopy Buffer is implemented based on linked-list of array. As shown in the figure below, we abstract []byte array into blocks and combine blocks into Nocopy Buffer in the form of a linked list. Meanwhile, reference counting mechanism, Nocopy API and object pool are introduced.&lt;br>
+&lt;p>Nocopy Buffer is implemented based on linked-list of array. As shown in the figure below, we abstract []byte array into blocks and combine blocks into Nocopy Buffer in the form of a linked list. Meanwhile, reference counting mechanism, Nocopy API and object pool are introduced.
 &lt;br/>
-&lt;img src="/img/blog/bytedance_gonet_practice_img/buffer.png" alt="image"> &lt;br/> &lt;br>
+&lt;img src="/img/blog/bytedance_gonet_practice_img/buffer.png" alt="image"> &lt;br/>
 Nocopy Buffer has the following advantages over some common buffer libraries like &amp;ldquo;bytes&amp;rdquo;, &amp;ldquo;bufio&amp;rdquo;, and &amp;ldquo;ringbuffer&amp;rdquo;:&lt;/p>
 &lt;ol>
 &lt;li>Read and write in parallel without lock, and supports stream read/write with nocopy
@@ -373,7 +616,7 @@ Nocopy Buffer has the following advantages over some common buffer libraries lik
 &lt;/li>
 &lt;li>Flexible slicing and splicing of buffer (the characteristic of linked list)
 &lt;ul>
-&lt;li>Support Arbitrary read slicing (nocopy), and the upper layer code can process data stream slicing in parallel with nocopy by reference counting GC, regardless of the lifecycle&lt;/li>
+&lt;li>Support arbitrary read slicing (nocopy), and the upper layer code can process data stream slicing in parallel with nocopy by reference counting GC, regardless of the lifecycle.&lt;/li>
 &lt;li>Support arbitrary splicing (nocopy). Buffer write supports splicing block after the tail pointer, without copy, and ensuring that data is written only once.&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -384,16 +627,16 @@ Nocopy Buffer has the following advantages over some common buffer libraries lik
 &lt;/li>
 &lt;/ol>
 &lt;h2 id="connection-multiplexing">Connection Multiplexing&lt;/h2>
-&lt;p>RPC scheduling is usually in the form of short connection or persistent connection pool, and each call is bound to one connection. Therefore, when the scale of upstream and downstream is large, the number of existing connections in the network increases in the speed of MxN, which brings huge scheduling pressure and computing overhead, and makes service governance difficult. Therefore, we want to introduce a mechanism for &amp;ldquo;parallel processing of calls on a single persistent connection&amp;rdquo; to reduce the number of connections in the network. This mechanism is called connection multiplexing.&lt;/p>
-&lt;p>There are some existing open source connection multiplexing solutions. But they are limited by code level constraints. They all require copy buffer for data subcontracting and merging, resulting in poor performance. On the other hand, with its flexible slicing and splicing, &amp;ldquo;Nocopy Buffer&amp;rdquo; well supports data subcontracting and merging with nocopy, making it possible to achieve high-performance connection multiplexing schemes.&lt;/p>
-&lt;p>The design of Netpoll-based connection multiplexing is shown in the figure below. We abstract the Nocopy Buffer(and its sharding) into virtual connections so that the upper layer code retains the same scheduling experience as &amp;ldquo;net.Conn&amp;rdquo;. At the same time, the data on the real connection can be flexibly allocated to the virtual connection through protocol subcontracting in the underlying code. Or send virtual connection data through protocol encoding.&lt;br>
+&lt;p>RPC calling is usually in the form of short connection or persistent connection pool, and each call is bound to one connection. Therefore, when the scale of upstream and downstream is large, the number of existing connections in the network increases in the speed of MxN, which brings huge scheduling pressure and computing overhead, and makes service governance difficult. Therefore, we want to introduce a mechanism for &amp;ldquo;parallel processing of calls on a single persistent connection&amp;rdquo; to reduce the number of connections in the network. This mechanism is called connection multiplexing.&lt;/p>
+&lt;p>There are some existing open-source connection multiplexing solutions. But they are limited by code level constraints. They all require copy buffer for data subcontracting and merging, resulting in poor performance. Nocopy Buffer, with its flexible slicing and splicing, well supports data subcontracting and merging with nocopy, making it possible to achieve high-performance connection multiplexing schemes.&lt;/p>
+&lt;p>The design of Netpoll-based connection multiplexing is shown in the figure below. We abstract the Nocopy Buffer(and its sharding) into virtual connections, so that the upper layer code retains the same calling experience as &amp;ldquo;net.Conn&amp;rdquo;. At the same time, the data on the real connection can be flexibly allocated to the virtual connection through protocol subcontracting in the underlying code. Or send virtual connection data through protocol encoding.
 &lt;br/>
 &lt;img src="/img/blog/bytedance_gonet_practice_img/client_server.png" alt="image"> &lt;br/>&lt;/p>
 &lt;p>The connection multiplexing scheme contains the following core elements:&lt;/p>
 &lt;ol>
 &lt;li>The virtual connection
 &lt;ul>
-&lt;li>It is essentially a &amp;ldquo;Nocopy Buffer&amp;rdquo; that replaces real connections and avoids memory copy.&lt;/li>
+&lt;li>It is essentially a &amp;ldquo;Nocopy Buffer&amp;rdquo;, designed to replace real connections and avoid memory copy.&lt;/li>
 &lt;li>The upper-layer service logic/codec is executed on the virtual connection, and the upper-layer logic can be executed in parallel asynchronously and independently.&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -406,41 +649,41 @@ Nocopy Buffer has the following advantages over some common buffer libraries lik
 &lt;/li>
 &lt;li>Data subcontracting and encoding
 &lt;ul>
-&lt;li>To identify the complete request-response data package is the key to make the connection multiplexing scheme feasible, so the protocol needs to be introduced.&lt;/li>
+&lt;li>How to identify the complete request-response data package is the key to make the connection multiplexing scheme feasible, so the protocol needs to be introduced.&lt;/li>
 &lt;li>The &amp;ldquo;Thrift Header Protocol&amp;rdquo; is used to check the data package integrity through the message header, and sequence ids are used to mark the corresponding relations between request and response.&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ol>
 &lt;h2 id="zerocopy">ZeroCopy&lt;/h2>
-&lt;p>&amp;ldquo;ZeroCopy&amp;rdquo; refers to the ZeroCopy capability provided by Linux. In the previous chapter we discussed about nocopy of the service layer. But as we know, when we schedule &amp;ldquo;sendmsg&amp;rdquo; system-call to send a data package, actually there is still a copy of the data, and the overhead of such copies is considerable when the data packages are large. For example, when the data package has the size of 100M, we can see the following result: &lt;br/>&lt;br>
-&lt;img src="/img/blog/bytedance_gonet_practice_img/perf.png" alt="image"> &lt;br/>&lt;br>
-The previous example is merely the overhead of tcp package sending. In our scenario, most services are connected to the &amp;ldquo;Service Mesh&amp;rdquo;. Therefore, there are three copies in a package sending: Service process to kernel, kernel to sidecar, sidecar to kernel. This makes the CPU usage caused by copying especially heavy for services demanding large package transactions, as shown in the following figure:&lt;br>
+&lt;p>&amp;ldquo;ZeroCopy&amp;rdquo; refers to the ZeroCopy function provided by Linux. In the previous chapter, we discussed nocopy of the service layer. But as we know, when we call the &amp;ldquo;sendmsg&amp;rdquo; system-call to send a data package, actually there is still a copy of the data, and the overhead of such copies is considerable when the data packages are large. For example, when the data package has the size of 100M, we can see the following result: &lt;br/>
+&lt;img src="/img/blog/bytedance_gonet_practice_img/perf.png" alt="image"> &lt;br/>
+The previous example is merely the overhead of tcp package sending. In our scenario, most services are connected to the &amp;ldquo;Service Mesh&amp;rdquo;. Therefore, there are three copies in a package sending: Service process to kernel, kernel to sidecar, sidecar to kernel. This makes the CPU usage caused by copying especially heavy for services demanding large package transactions, as shown in the following figure:
 &lt;br/>
-&lt;img src="/img/blog/bytedance_gonet_practice_img/service_mesh_copy.png" alt="image"> &lt;br/>&lt;br>
-To solve this problem, we chose to use the ZeroCopy API provided by Linux (send is supported after 4.14; receive is supported after 5.4). But this introduces an additional engineering problem: the ZeroCopy send API is incompatible with the original call method and does not coexist well. Here&amp;rsquo;s how ZeroCopy Send works: After the service process calls &amp;ldquo;sendmsg&amp;rdquo;, &amp;ldquo;sendmsg&amp;rdquo; records the address of the &amp;ldquo;iovec&amp;rdquo; and returns it immediately. In this case, the service process cannot release the memory and needs to use &amp;ldquo;epoll&amp;rdquo; to wait for the kernel to send a signal indicating that a certain &amp;ldquo;iovec&amp;rdquo; has been successfully sent. Since we don&amp;rsquo;t want to change the way the business side uses it, we need to provide a synchronous sending and receiving interface to the upper layer, so it is difficult to provide both ZeroCopy and non-Zerocopy abstraction based on the existing API. Since ZeroCopy has performance degradation in small package scenarios, this is not the optimal option.&lt;/p>
+&lt;img src="/img/blog/bytedance_gonet_practice_img/service_mesh_copy.png" alt="image"> &lt;br/>
+To solve this problem, we chose to use the ZeroCopy API provided by Linux (send is supported after 4.14; receive is supported after 5.4). But this introduces an additional engineering problem: the ZeroCopy send API is incompatible with the original call method and does not coexist well. Here&amp;rsquo;s how ZeroCopy Send works: After the service process calls &amp;ldquo;sendmsg&amp;rdquo;, &amp;ldquo;sendmsg&amp;rdquo; records the address of the &amp;ldquo;iovec&amp;rdquo; and returns it immediately. In this case, the service process cannot release the memory, and needs to wait for the kernel to send a signal indicating that an &amp;ldquo;iovec&amp;rdquo; has been successfully sent before it can be released via &amp;ldquo;epoll&amp;rdquo;. Since we don&amp;rsquo;t want to change the way the business side uses it, we need to provide a synchronous sending and receiving interface to the upper layer, so it is difficult to provide both ZeroCopy and non-Zerocopy abstraction based on the existing API. Since ZeroCopy has performance degradation in small package scenarios, this is not the default option.&lt;/p>
 &lt;p>Thus, the ByteDance Service Framework Team collaborated with the ByteDance Kernel Team. The Kernel Team provided the synchronous interface: when &amp;ldquo;sendmsg&amp;rdquo; is called, the kernel listens and intercepts the original kernel callback to the service, and doesn&amp;rsquo;t let &amp;ldquo;sendmsg&amp;rdquo; return values until the callback is complete. This allows us to easily plug in &amp;ldquo;ZeroCopy send&amp;rdquo; without changing the original model. Meanwhile, the ByteDance Kernel Team also implements ZeroCopy based on Unix domain socket, which enables zero-copy communication between service processes and Mesh sidecar.&lt;/p>
-&lt;p>After using &amp;ldquo;ZeroCopy send&amp;rdquo;, we can see that the kernel is no longer occupied by copy through perf:&lt;br>
+&lt;p>After using &amp;ldquo;ZeroCopy send&amp;rdquo;, we can see that the kernel is no longer occupied by copy through perf:
 &lt;br/>
-&lt;img src="/img/blog/bytedance_gonet_practice_img/perf2.png" alt="image"> &lt;br/>&lt;br>
-In terms of CPU usage, with ZeroCopy, CPU is occupied half as much as non-Zerocopy only, in the large package scenario.&lt;/p>
+&lt;img src="/img/blog/bytedance_gonet_practice_img/perf2.png" alt="image"> &lt;br/>
+In terms of CPU usage, ZeroCopy can save half the cpu of non-ZeroCopy in large package scenarios.&lt;/p>
 &lt;h2 id="delay-caused-by-go-scheduling">Delay Caused By Go Scheduling&lt;/h2>
-&lt;p>In our practice, we found that although our newly written &amp;ldquo;Netpoll&amp;rdquo; outperformed the &amp;ldquo;Go net&amp;rdquo; library in terms of avg delay, it was generally higher than the &amp;ldquo;Go net&amp;rdquo; library in terms of p99 and max delay, and the spikes would be more obvious, as shown in the following figure (Go 1.13, Netpoll + multiplexing in blue, Netpoll + persistent connection in green, Go net library + persistent connection in yellow):&lt;br>
+&lt;p>In our practice, we found that although our newly written &amp;ldquo;Netpoll&amp;rdquo; outperformed the &amp;ldquo;Go net&amp;rdquo; library in terms of avg delay, it was generally higher than the &amp;ldquo;Go net&amp;rdquo; library in terms of p99 and max delay, and the spikes would be more obvious, as shown in the following figure (Go 1.13, Netpoll + multiplexing in blue, Netpoll + persistent connection in green, Go net library + persistent connection in yellow):
 &lt;br/>
 &lt;img src="/img/blog/bytedance_gonet_practice_img/delay.png" alt="image"> &lt;br/>&lt;/p>
-&lt;p>We tried many ways to optimize it, but the outcomes were unsatifactory. Finally, we locate that the delay was not due to the overhead of &amp;ldquo;Netpoll&amp;rdquo; itself, but caused by the scheduling of Go, for example:&lt;/p>
+&lt;p>We tried many ways to improve it, but the outcomes were unsatisfactory. Finally, we locate that the delay was not caused by the overhead of &amp;ldquo;Netpoll&amp;rdquo; itself, but by the scheduling of Go, for example:&lt;/p>
 &lt;ol>
 &lt;li>In &amp;ldquo;Netpoll&amp;rdquo;, the &amp;ldquo;SubReactor&amp;rdquo; itself is also a &amp;ldquo;goroutine&amp;rdquo;, which is affected by scheduling and cannot be guaranteed to be executed immediately after the &amp;ldquo;EpollWait&amp;rdquo; callback, so there would be a delay here.&lt;/li>
-&lt;li>Also, since the &amp;ldquo;SubReactor&amp;rdquo; used to handle I/O events and the &amp;ldquo;MainReactor&amp;rdquo; used to handle connection listening are &amp;ldquo;goroutines&amp;rdquo; themselves, it is impossible to ensure that these reactors can be executed in parallel under multi-kernel conditions. Even in the most extreme cases, these reactors may be under the same P, and eventually become sequential execution. Resulting in lower efficiency and unable to take the full advantage of multi-kernel;&lt;/li>
+&lt;li>At the same time, since the &amp;ldquo;SubReactor&amp;rdquo; used to handle I/O events and the &amp;ldquo;MainReactor&amp;rdquo; used to handle connection listening are &amp;ldquo;goroutines&amp;rdquo; themselves, it is actually impossible to ensure that these reactors can be executed in parallel under multi-kernel conditions. Even in the most extreme cases, these reactors may be under the same P, and eventually become sequential execution, which cannot take full advantage of multi-kernel;&lt;/li>
 &lt;li>After &amp;ldquo;EpollWait callback&amp;rdquo;, I/O events are processed serially in the &amp;ldquo;SubReactor&amp;rdquo;, so the last event may have a long tail problem.&lt;/li>
-&lt;li>In connection multiplexing scenarios, since each connection is bound to a &amp;ldquo;SubReactor&amp;rdquo;, the delay is entirely dependent on the scheduling of the &amp;ldquo;SubReactor&amp;rdquo;, resulting in more pronounced spikes. Because Go has specific optimizations for the net library in runtime, this does not happen in the net library. At the same time, the NET library is also a &amp;ldquo;goroutine-per-connection&amp;rdquo; model, so it ensures that requests can be executed in parallel without interfering with each other.&lt;/li>
+&lt;li>In connection multiplexing scenarios, since each connection is bound to a &amp;ldquo;SubReactor&amp;rdquo;, the delay is entirely dependent on the scheduling of the &amp;ldquo;SubReactor&amp;rdquo;, resulting in more pronounced spikes. Because Go has specific improvements for the net library in runtime, the net library will not have the above situation. At the same time, the net library is also a &amp;ldquo;goroutine-per-connection&amp;rdquo; model, so it ensures that requests can be executed in parallel without interfering with each other.&lt;/li>
 &lt;/ol>
 &lt;p>For the above problems, we have two solutions at present:&lt;/p>
 &lt;ol>
 &lt;li>Modify the Go runtime source code, register a callback in the Go runtime, call EpollWait each time, and pass the fd to the callback execution;&lt;/li>
-&lt;li>Working with the ByteDance Kernel Team to support simultaneous batch read/write of multiple connections to solve sequential problems. In addition, in our tests, Go 1.14 reduces the latency slightly lower and smoother, but the max QPS that can be achieved is lower. I hope our ideas can provide some references to peers in the industry who also encountered this problem.&lt;/li>
+&lt;li>Work with the ByteDance Kernel Team to support simultaneous batch read/write of multiple connections to solve sequential problems. In addition, in our tests, Go 1.14 reduces the latency slightly lower and smoother, but the max QPS that can be achieved is lower. I hope our ideas can provide some references to peers in the industry who also encountered this problem.&lt;/li>
 &lt;/ol>
 &lt;h2 id="postscript">Postscript&lt;/h2>
-&lt;p>Hope the above sharing can be helpful to the community. At the same time, we are accelerating the development of &amp;ldquo;Netpoll&amp;rdquo; and &amp;ldquo;Kitex&amp;rdquo; &amp;ndash; a new framework based on &amp;ldquo;Netpoll&amp;rdquo;. You are welcome to join us and build Golang ecology together!&lt;/p>
+&lt;p>We hope the above sharing can be helpful to the community. At the same time, we are accelerating the development of &amp;ldquo;Netpoll&amp;rdquo; and &amp;ldquo;Kitex&amp;rdquo; &amp;ndash; a new framework based on &amp;ldquo;Netpoll&amp;rdquo;. You are welcome to join us and build Golang ecology together!&lt;/p>
 &lt;h2 id="reference">Reference&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="http://man7.org/linux/man-pages/man7/epoll.7.html">http://man7.org/linux/man-pages/man7/epoll.7.html&lt;/a>&lt;/li>
@@ -459,7 +702,7 @@ In terms of CPU usage, with ZeroCopy, CPU is occupied half as much as non-Zeroco
 &lt;li>Use new netpoll API to improve throughput and reduce latency for mux.&lt;/li>
 &lt;li>Backward and forward metainfo is supported for mux.&lt;/li>
 &lt;li>Client will use RPCTimeout middleware when necessary.&lt;/li>
-&lt;li>Add validity verification of idle connection in ConnecitonPool.&lt;/li>
+&lt;li>Add validity verification of idle connection in ConnectionPool.&lt;/li>
 &lt;li>QPS limiter token will be reset when QPS limit updates.&lt;/li>
 &lt;li>Reduce the deviation of QPS Limiter.&lt;/li>
 &lt;/ul>
@@ -485,16 +728,16 @@ In terms of CPU usage, with ZeroCopy, CPU is occupied half as much as non-Zeroco
 &lt;li>github.com/bytedance/gopkg: v0.0.0-20210709064845-3c00f9323f09 -&amp;gt; v0.0.0-20210910103821-e4efae9c17c3&lt;/li>
 &lt;/ul></description></item><item><title>Blog: Performance Optimization on Kitex</title><link>/blog/2021/09/23/performance-optimization-on-kitex/</link><pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate><guid>/blog/2021/09/23/performance-optimization-on-kitex/</guid><description>
 &lt;h2 id="preface">Preface&lt;/h2>
-&lt;p>Kitex is the next generation high-performance and extensible Go RPC framework developed by Bytedance Service Framework Team. Compared with other RPC frameworks, in addition to its rich features for service governance, it has the following characteristics: Integrated with the in-house developed network library - Netpoll; Supports multiple Message Protocols (Thrift, Protobuf) and Interactive Models (Ping-Pong, Oneway, Streaming); Provides a more flexible and extensible code generator.&lt;/p>
-&lt;p>Currently, Kitex has been widely used by the major lines of business in ByteDance, and statistics shows that the number of service access is up to 8K. We&amp;rsquo;ve been continuously optimizing Kitex&amp;rsquo;s performance since its launch. This article will share our work on optimizing Netpoll and serialization.&lt;/p>
+&lt;p>Kitex is the next generation high-performance and extensible Go RPC framework developed by ByteDance Service Framework Team. Compared with other RPC frameworks, in addition to its rich features for service governance, it has the following characteristics: integrated with the self-developed network library - Netpoll; supports multiple Message Protocols (Thrift, Protobuf) and Interactive Models (Ping-Pong, Oneway, Streaming); provides a more flexible and extensible code generator.&lt;/p>
+&lt;p>Currently, Kitex has been widely used by the major lines of business in ByteDance, and statistics shows that the number of service access is up to 8K. We&amp;rsquo;ve been continuously improving Kitex&amp;rsquo;s performance since its launch. This article will share our work on optimizing Netpoll and serialization.&lt;/p>
 &lt;h2 id="optimization-of-the-network-library---netpoll">Optimization of the Network Library - Netpoll&lt;/h2>
-&lt;p>Netpoll, the self-developed network library based on Epoll. Compared with the previous version and the go net library, its performance has been significantly improved. Test results indicated that compared with the last version (2020.05), the latest version (2020.12) has ↑30% throughput capacity, ↓ 25% AVG latency, and ↓67% TP99 . Its performance is far better than the Go Net library. Below, we&amp;rsquo;ll share two solutions that can significantly improve its performance.&lt;/p>
+&lt;p>Netpoll, the self-developed network library based on Epoll. Compared with the previous version and the go net library, its performance has been significantly improved. Test results indicated that compared with the last version (2020.05), the latest version (2020.12) has ↑30% throughput capacity, ↓25% AVG latency, and ↓67% TP99 . Its performance is far better than the Go Net library. Below, we&amp;rsquo;ll share two solutions that can significantly improve its performance.&lt;/p>
 &lt;h3 id="optimizing-scheduling-delays-when-calling-epoll_wait">Optimizing Scheduling Delays When Calling &amp;ldquo;epoll_wait&amp;rdquo;&lt;/h3>
 &lt;p>When Netpoll was newly released, it encountered the problem of low AVG latency but high TP99. Through our research and analysis on &amp;ldquo;epoll_wait&amp;rdquo;, we found that such a problem could be mitigated by integrating &amp;ldquo;polling&amp;rdquo; and &amp;ldquo;event trigger&amp;rdquo;. With such improvements in scheduling strategy, the latency can be reduced considerably.&lt;/p>
 &lt;p>Let&amp;rsquo;s have a look at the &amp;ldquo;syscall.EpollWait&amp;rdquo; method provided by Go first:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">&lt;span style="color:#204a87;font-weight:bold">func&lt;/span> &lt;span style="color:#000">EpollWait&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">epfd&lt;/span> &lt;span style="color:#204a87;font-weight:bold">int&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">events&lt;/span> &lt;span style="color:#000;font-weight:bold">[]&lt;/span>&lt;span style="color:#000">EpollEvent&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">msec&lt;/span> &lt;span style="color:#204a87;font-weight:bold">int&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">n&lt;/span> &lt;span style="color:#204a87;font-weight:bold">int&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">err&lt;/span> &lt;span style="color:#204a87;font-weight:bold">error&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Three parameters are provided here, they represent &amp;ldquo;epoll fd&amp;rdquo;, “callback events”, and &amp;ldquo;milliseconds to wait&amp;rdquo; respectively. Only &amp;ldquo;msec&amp;rdquo; is dynamic.&lt;/p>
-&lt;p>Normally, we would set &amp;ldquo;msec = -1&amp;rdquo; when we are actively calling &amp;ldquo;EpollWait&amp;rdquo;, as we want to wait for the event infinitely. In fact, many open source net libraries were also using it in this way. But our research showed that setting &amp;ldquo;msec =-1&amp;rdquo; was not the optimal solution.&lt;/p>
+&lt;p>Normally, we would set &amp;ldquo;msec = -1&amp;rdquo; when we are actively calling &amp;ldquo;EpollWait&amp;rdquo;, as we want to wait for the event infinitely. In fact, many open-source net libraries were also using it in this way. But our research showed that setting &amp;ldquo;msec =-1&amp;rdquo; was not the optimal solution.&lt;/p>
 &lt;p>The kernel source (below) of &amp;ldquo;epoll_wait&amp;rdquo; shows that setting &amp;ldquo;msec = -1&amp;rdquo; arises extra &amp;ldquo;fetch_events&amp;rdquo; checks than setting &amp;ldquo;msec = 0&amp;rdquo;, and therefore consumes more time.&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">&lt;span style="color:#000">static&lt;/span> &lt;span style="color:#204a87;font-weight:bold">int&lt;/span> &lt;span style="color:#000">ep_poll&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">struct&lt;/span> &lt;span style="color:#000">eventpoll&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">*&lt;/span>&lt;span style="color:#000">ep&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#204a87;font-weight:bold">struct&lt;/span> &lt;span style="color:#000">epoll_event&lt;/span> &lt;span style="color:#000">__user&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">*&lt;/span>&lt;span style="color:#000">events&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">int&lt;/span> &lt;span style="color:#000">maxevents&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">long&lt;/span> &lt;span style="color:#000">timeout&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
@@ -512,7 +755,7 @@ In terms of CPU usage, with ZeroCopy, CPU is occupied half as much as non-Zeroco
 &lt;span style="color:#204a87;font-weight:bold">goto&lt;/span> &lt;span style="color:#000">send_events&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
 &lt;span style="color:#000">send_events&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>
 &lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>The Benchmark shows that when an event is triggered, setting &amp;ldquo;msec = 0&amp;rdquo; is 18% faster than setting &amp;ldquo;msec = -1&amp;rdquo;. Thus, when triggering complex events, setting &amp;ldquo;msec = 0&amp;rdquo; is obviously a better choice.&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The Benchmark shows that when an event is triggered, setting &amp;ldquo;msec = 0&amp;rdquo; is about 18% faster than setting &amp;ldquo;msec = -1&amp;rdquo;. Thus, when triggering complex events, setting &amp;ldquo;msec = 0&amp;rdquo; is obviously a better choice.&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -540,7 +783,7 @@ In terms of CPU usage, with ZeroCopy, CPU is occupied half as much as non-Zeroco
 &lt;/tbody>
 &lt;/table>
 &lt;p>However, setting &amp;ldquo;msec = 0&amp;rdquo; would lead to infinite polling when no event is triggered, consumes lots of resources.&lt;/p>
-&lt;p>Taking the previously mentioned factors into account, it&amp;rsquo;s preferred to set &amp;ldquo;msec = 0&amp;rdquo; when an event is triggered and &amp;ldquo;msec = -1&amp;rdquo; when no event is triggered to reduce polling. The pseudocode is demonstrated as follow:&lt;/p>
+&lt;p>Taking the previously mentioned factors into account, it&amp;rsquo;s preferred to set &amp;ldquo;msec = 0&amp;rdquo; when an event is triggered and &amp;ldquo;msec = -1&amp;rdquo; when no event is triggered to reduce polling. The pseudocode is demonstrated as follows:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">&lt;span style="color:#204a87;font-weight:bold">var&lt;/span> &lt;span style="color:#000">msec&lt;/span> &lt;span style="color:#000;font-weight:bold">=&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">-&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">1&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">for&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
 &lt;span style="color:#000">n&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">err&lt;/span> &lt;span style="color:#000;font-weight:bold">=&lt;/span> &lt;span style="color:#000">syscall&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">EpollWait&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">epfd&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">events&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">msec&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
@@ -553,7 +796,7 @@ In terms of CPU usage, with ZeroCopy, CPU is occupied half as much as non-Zeroco
 &lt;span style="color:#000;font-weight:bold">}&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Neverthless, our experiments have proved that the improvement is insignificant. Setting &amp;ldquo;msec = 0&amp;rdquo; merely reduces the delay of a single call by 50ns, which is not a considerable improvement. If we want to further reduce latency, adjustment must be made in Go runtime scheduling.
 Thus, let&amp;rsquo;s further explore this issue:
-In the pseudocode above, setting &amp;ldquo;msec= -1&amp;rdquo; with no triggered event, and &amp;ldquo;continue&amp;rdquo; directly will immediately execute &amp;ldquo;EpollWait&amp;rdquo; again. Since there is no triggered event while &amp;ldquo;msec = -1&amp;rdquo;, the current &amp;ldquo;goroutine&amp;rdquo; will block and be switched by &amp;ldquo;P&amp;rdquo; passively. However, it is less efficient, and we can save time if we actively switch &amp;ldquo;goroutine&amp;rdquo; for &amp;ldquo;P&amp;rdquo; before &amp;ldquo;continue&amp;rdquo;. So we modified the above pseudocode as follow:&lt;/p>
+In the pseudocode above, setting &amp;ldquo;msec= -1&amp;rdquo; with no triggered event, and &amp;ldquo;continue&amp;rdquo; directly will immediately execute &amp;ldquo;EpollWait&amp;rdquo; again. Since there is no triggered event while &amp;ldquo;msec = -1&amp;rdquo;, the current &amp;ldquo;goroutine&amp;rdquo; will block and be switched by &amp;ldquo;P&amp;rdquo; passively. However, it is less efficient, and we can save time if we actively switch &amp;ldquo;goroutine&amp;rdquo; for &amp;ldquo;P&amp;rdquo; before &amp;ldquo;continue&amp;rdquo;. So we modified the above pseudocode as follows:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">&lt;span style="color:#204a87;font-weight:bold">var&lt;/span> &lt;span style="color:#000">msec&lt;/span> &lt;span style="color:#000;font-weight:bold">=&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">-&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">1&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">for&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
 &lt;span style="color:#000">n&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">err&lt;/span> &lt;span style="color:#000;font-weight:bold">=&lt;/span> &lt;span style="color:#000">syscall&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">EpollWait&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">epfd&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">events&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">msec&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
@@ -567,7 +810,7 @@ In the pseudocode above, setting &amp;ldquo;msec= -1&amp;rdquo; with no triggere
 &lt;span style="color:#000;font-weight:bold">}&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>The test results of the modified code showed that throughput ↑12% and TP99 ↓64%. The latency was significantly reduced.&lt;/p>
 &lt;h3 id="utilizing-unsafepointer">Utilizing &amp;ldquo;unsafe.Pointer&amp;rdquo;&lt;/h3>
-&lt;p>Through further study of &amp;ldquo;epoll_wait&amp;rdquo;, we find that the &amp;ldquo;syscall.EpollWait&amp;rdquo; published by Go and the &amp;ldquo;epollwait&amp;rdquo; used by &amp;ldquo;runtime&amp;rdquo; are two different versions, as they use different &amp;ldquo;EpollEvent&amp;rdquo;. They are demonstrated as follow:&lt;/p>
+&lt;p>Through further study of &amp;ldquo;epoll_wait&amp;rdquo;, we find that the &amp;ldquo;syscall.EpollWait&amp;rdquo; published by Go and the &amp;ldquo;epollwait&amp;rdquo; used by &amp;ldquo;runtime&amp;rdquo; are two different versions, as they use different &amp;ldquo;EpollEvent&amp;rdquo;. They are demonstrated as follows:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">&lt;span style="color:#8f5902;font-style:italic">// @syscall
 &lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span>&lt;span style="color:#204a87;font-weight:bold">type&lt;/span> &lt;span style="color:#000">EpollEvent&lt;/span> &lt;span style="color:#204a87;font-weight:bold">struct&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
 &lt;span style="color:#000">Events&lt;/span> &lt;span style="color:#204a87;font-weight:bold">uint32&lt;/span>
@@ -579,36 +822,36 @@ In the pseudocode above, setting &amp;ldquo;msec= -1&amp;rdquo; with no triggere
 &lt;span style="color:#000">events&lt;/span> &lt;span style="color:#204a87;font-weight:bold">uint32&lt;/span>
 &lt;span style="color:#000">data&lt;/span> &lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">8&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span>&lt;span style="color:#204a87;font-weight:bold">byte&lt;/span> &lt;span style="color:#8f5902;font-style:italic">// unaligned uintptr
 &lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>As we can see, the &amp;ldquo;epollevent&amp;rdquo; used by &amp;ldquo;runtime&amp;rdquo; is in its original structure defined by &amp;ldquo;epoll&amp;rdquo; at system layer. The published version warps it and splits &amp;ldquo;epoll_data(epollevent.data)&amp;rdquo; into two fixed fields: &amp;ldquo;Fd&amp;rdquo; and &amp;ldquo;Pad&amp;rdquo;. For &amp;ldquo;runtime&amp;rdquo;, in its source code we found the following logic:&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>As we can see, the &amp;ldquo;epollevent&amp;rdquo; used by &amp;ldquo;runtime&amp;rdquo; is the original structure defined by &amp;ldquo;epoll&amp;rdquo; at system layer. The published version encapsulates it and splits &amp;ldquo;epoll_data(epollevent.data)&amp;rdquo; into two fixed fields: &amp;ldquo;Fd&amp;rdquo; and &amp;ldquo;Pad&amp;rdquo;. For &amp;ldquo;runtime&amp;rdquo;, in its source code we found the following logic:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">&lt;span style="color:#ce5c00;font-weight:bold">*&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">**&lt;/span>&lt;span style="color:#000">pollDesc&lt;/span>&lt;span style="color:#000;font-weight:bold">)(&lt;/span>&lt;span style="color:#000">unsafe&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Pointer&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&lt;/span>&lt;span style="color:#000">ev&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">data&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">=&lt;/span> &lt;span style="color:#000">pd&lt;/span>
 &lt;span style="color:#000">pd&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:=&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">*&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">**&lt;/span>&lt;span style="color:#000">pollDesc&lt;/span>&lt;span style="color:#000;font-weight:bold">)(&lt;/span>&lt;span style="color:#000">unsafe&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Pointer&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&lt;/span>&lt;span style="color:#000">ev&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">data&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Obviously, &amp;ldquo;runtime&amp;rdquo; uses &amp;ldquo;epoll_data(&amp;amp;ev.data)&amp;rdquo; to store a pointer of the &amp;ldquo;fd&amp;rdquo; corresponding structure - &amp;ldquo;(pollDesc)&amp;rdquo; directly. Thus, when an event is triggered, the &amp;ldquo;struct&amp;rdquo; object can be found directly with the corresponding logic being executed. However, the external version can only obtain the warped &amp;ldquo;fd&amp;rdquo; parameters. So it needs to introduce additional &amp;ldquo;Map&amp;rdquo; to manipulate the &amp;ldquo;struct&amp;rdquo; object, and the performance will be diminished.&lt;/p>
-&lt;p>Therefore, we abandoned &amp;ldquo;syscall.EpollWait&amp;rdquo; and designed our own &amp;ldquo;EpollWait&amp;rdquo; call by referring to &amp;ldquo;runtime&amp;rdquo;. We also use &amp;ldquo;unsafe.Pointer&amp;rdquo; to access &amp;ldquo;struct&amp;rdquo; objects. The test results showed that our &amp;ldquo;EpollWait&amp;rdquo; call contributed to ↑10% throughput and ↓10% TP99 , which has significantly improved efficiency.&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Obviously, &amp;ldquo;runtime&amp;rdquo; uses &amp;ldquo;epoll_data(&amp;amp;ev.data)&amp;rdquo; to store the pointer of the corresponding structure (pollDesc) of &amp;ldquo;fd&amp;rdquo; directly. Thus, when an event is triggered, the &amp;ldquo;struct&amp;rdquo; object can be found directly with the corresponding logic being executed. However, the external version can only obtain the encapsulated &amp;ldquo;fd&amp;rdquo; parameters. So it needs to introduce additional &amp;ldquo;Map&amp;rdquo; to manipulate the &amp;ldquo;struct&amp;rdquo; object, and the performance will be diminished.&lt;/p>
+&lt;p>Therefore, we abandoned &amp;ldquo;syscall.EpollWait&amp;rdquo; and designed our own &amp;ldquo;EpollWait&amp;rdquo; call by referring to &amp;ldquo;runtime&amp;rdquo;. We also use &amp;ldquo;unsafe.Pointer&amp;rdquo; to access &amp;ldquo;struct&amp;rdquo; objects. The test results showed that our &amp;ldquo;EpollWait&amp;rdquo; call contributed to ↑10% throughput and ↓10% TP99, which has significantly improved efficiency.&lt;/p>
 &lt;h2 id="serializationdeserialization-optimization-of-thrift">Serialization/Deserialization Optimization of Thrift&lt;/h2>
 &lt;p>Serialization refers to the process of converting a data structure or object into a binary or textual form. Deserialization is the opposite process. A serialization protocol needs to be agreed during RPC communication. The serialization process is executed before the client sends requests. The bytes are transmitted to the server over the network, and the server will logic-process the bytes to complete an RPC request. Thrift supports &amp;ldquo;Binary&amp;rdquo;, &amp;ldquo;Compact&amp;rdquo;, and &amp;ldquo;JSON&amp;rdquo; serialization protocols. Since &amp;ldquo;Binary&amp;rdquo; is the most common protocol used in Bytedance, we will only discuss about &amp;ldquo;Binary&amp;rdquo; protocol.&lt;/p>
-&lt;p>&amp;ldquo;Binary&amp;rdquo; protocol is &amp;ldquo;TLV&amp;rdquo; (&amp;ldquo;Type&amp;rdquo;, &amp;ldquo;Length&amp;rdquo;, &amp;ldquo;Value&amp;rdquo;) encoded, that is, each field is described using &amp;ldquo;TLV&amp;rdquo; structure. It emphasizes that the &amp;ldquo;Value&amp;rdquo; can also be a &amp;ldquo;TLV&amp;rdquo; structure, where the &amp;ldquo;Type&amp;rdquo; and &amp;ldquo;Length&amp;rdquo; are fixed in length, and the length of &amp;ldquo;Value&amp;rdquo; is determined by the input value of &amp;ldquo;Length&amp;rdquo;. TLV coding structure is simple, clear, and scalable. However, since it requires the input of &amp;ldquo;Type&amp;rdquo; and &amp;ldquo;Length&amp;rdquo;, there is extra memory overhead incurred. It wastes considerable memory especially when most fields are in base types.&lt;/p>
-&lt;p>The performance of serilization and deserialization can be optimized from two dimensions - &amp;ldquo;time&amp;rdquo; &amp;amp; &amp;ldquo;space&amp;rdquo;. To be compatible with the existing &amp;ldquo;binary&amp;rdquo; protocols, optimization in &amp;ldquo;space&amp;rdquo; seems to be infeasible. Improvement can only be made in &amp;ldquo;time&amp;rdquo;, it includes:&lt;/p>
+&lt;p>&amp;ldquo;Binary&amp;rdquo; protocol is &amp;ldquo;TLV&amp;rdquo; (&amp;ldquo;Type&amp;rdquo;, &amp;ldquo;Length&amp;rdquo;, &amp;ldquo;Value&amp;rdquo;) encoded, that is, each field is described using &amp;ldquo;TLV&amp;rdquo; structure. It emphasizes that the &amp;ldquo;Value&amp;rdquo; can also be a &amp;ldquo;TLV&amp;rdquo; structure, where the &amp;ldquo;Type&amp;rdquo; and &amp;ldquo;Length&amp;rdquo; are fixed in length, and the length of &amp;ldquo;Value&amp;rdquo; is determined by the input value of &amp;ldquo;Length&amp;rdquo;. The TLV coding structure is simple, clear, and scalable. However, since it requires the input of &amp;ldquo;Type&amp;rdquo; and &amp;ldquo;Length&amp;rdquo;, there is extra memory overhead incurred. It wastes considerable memory especially when most fields are in base types.&lt;/p>
+&lt;p>The performance of serialization and deserialization can be optimized from two dimensions - &amp;ldquo;time&amp;rdquo; &amp;amp; &amp;ldquo;space&amp;rdquo;. To be compatible with the existing &amp;ldquo;binary&amp;rdquo; protocols, optimization in &amp;ldquo;space&amp;rdquo; seems to be infeasible. Improvement can only be made in &amp;ldquo;time&amp;rdquo;, it includes:&lt;/p>
 &lt;ul>
-&lt;li>Reduce the frequency of operations on memory, notably memory allocation and replication. Try to allocate memory proactively to reduce unnecessary time consumption.&lt;/li>
+&lt;li>Reduce the frequency of operations on memory, notably memory allocation and copying. Try to pre-allocate memory to reduce unnecessary time consumption.&lt;/li>
 &lt;li>Reduce the frequency of function calls by adjusting code structure or using &amp;ldquo;inline&amp;rdquo; etc.&lt;/li>
 &lt;/ul>
-&lt;h3 id="research-on-serilization-strategy">Research on Serilization Strategy&lt;/h3>
+&lt;h3 id="research-on-serialization-strategy">Research on Serialization Strategy&lt;/h3>
 &lt;p>Based on &amp;ldquo;go_serialization_benchmarks&amp;rdquo;, we investigated a number of serialization schemes that performed well to guide the optimization of our serialization strategy.&lt;/p>
 &lt;p>Analysis of &amp;ldquo;protobuf&amp;rdquo;, &amp;ldquo;gogoprotobuf&amp;rdquo;, and &amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; has provided us the following results:&lt;/p>
 &lt;ul>
-&lt;li>Considering I/O, the transmitted data is usually compressed in size during online transactions. &amp;ldquo;protobuf&amp;rdquo; uses &amp;ldquo;Varint&amp;rdquo; encoding and has good data compression capabilities in most scenarios.&lt;/li>
-&lt;li>&amp;ldquo;gogoprotobuf&amp;rdquo; uses precomputation to reduce memory allocations and replications during serialization. Thus, it eliminates the cost of system calls, locks and GC arise from memory allocations.&lt;/li>
-&lt;li>&amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; directly operates buffer, which also reduces memory allocations and replications. In addition, it also designs &amp;ldquo;struct pointer&amp;rdquo; in a way that processes fixed-length data and non-fixed-length data separately. Which enables fast processing for fixed-length data.
-For compatibility reasons, it is impossible to change the existing &amp;ldquo;TLV&amp;rdquo; encoding format, so data compression is not feasible. But finding 2 and 3 are inspiring to our optimization work, and in fact we have taken a similar approach.&lt;/li>
+&lt;li>Considering I/O, the transmitted data is usually compressed in size during network transmission. &amp;ldquo;protobuf&amp;rdquo; uses &amp;ldquo;Varint&amp;rdquo; encoding and has good data compression capabilities in most scenarios.&lt;/li>
+&lt;li>&amp;ldquo;gogoprotobuf&amp;rdquo; uses precomputation to reduce memory allocations and copies during serialization. Thus, it eliminates the cost of system calls, locks and GC arisen from memory allocations.&lt;/li>
+&lt;li>&amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; directly operates buffer, which also reduces memory allocations and copies. In addition, it also designs &amp;ldquo;struct pointer&amp;rdquo; in a way that processes fixed-length data and non-fixed-length data separately, which enables fast processing for fixed-length data.&lt;/li>
 &lt;/ul>
+&lt;p>For compatibility reasons, it is impossible to change the existing &amp;ldquo;TLV&amp;rdquo; encoding format, so data compression is not feasible. But finding 2 and 3 are inspiring to our optimization work, and in fact we have taken a similar approach.&lt;/p>
 &lt;h3 id="approaches">Approaches&lt;/h3>
 &lt;h4 id="reducing-operations-on-memory">Reducing Operations on Memory&lt;/h4>
 &lt;p>&lt;strong>Buffer management&lt;/strong>&lt;br>
-Both serialization and deserialization involve copying data from one piece of memory to another. It involves memory allocation and replications. Avoiding memory operations can reduce unnecessary overhead such as system calls, locks, and GC.&lt;/p>
+Both serialization and deserialization involve copying data from one piece of memory to another. It involves memory allocation and memory copying. Avoiding memory operations can reduce unnecessary overhead such as system calls, locks, and GC.&lt;/p>
 &lt;p>In fact, Kitex has provided &amp;ldquo;LinkBuffer&amp;rdquo; for buffer management purposes. &amp;ldquo;LinkBuffer&amp;rdquo; is designed with a linked structure and consists of multiple blocks, among which blocks are memory chunks with a fixed size. Object pool is constructed to maintain unoccupied block and support block multiplexing, thus, reduce memory usage and GC.&lt;/p>
-&lt;p>Initially we simply used &amp;ldquo;sync.Pool&amp;rdquo; to multiplex the &amp;ldquo;LinkBufferNode&amp;rdquo; of netpoll, but it didn&amp;rsquo;t significantly contribute to multiplexing in large data package scenarios (large nodes can&amp;rsquo;t be reclaimed or it would cause memory leaking). At present, we have changed our strategy to maintain a group of &amp;ldquo;sync.Pool&amp;rdquo;, and the buffer sizes in each chunk are different. When new blocks are created, it is obtained from the pool with the closest size to the required size, so that the memory can be multiplexed as much as possible. And the test results also proved that it contributed to significant improvement in terms of memory allocation and GC.&lt;/p>
+&lt;p>Initially we simply used &amp;ldquo;sync.Pool&amp;rdquo; to multiplex the &amp;ldquo;LinkBufferNode&amp;rdquo; of netpoll, but it didn&amp;rsquo;t significantly contribute to multiplexing in large data package scenarios (large nodes can&amp;rsquo;t be reclaimed or it would cause memory leaking). At present, we have changed our strategy to maintain a group of &amp;ldquo;sync.Pool&amp;rdquo;, and the buffer size in each chunk is different. When new blocks are created, it is obtained from the pool with the closest size to the required size, so that the memory can be multiplexed as much as possible. And the test results also proved that it contributed to significant improvement in terms of memory allocation and GC.&lt;/p>
 &lt;p>&lt;strong>Copy-free String / Binary&lt;/strong>&lt;br>
-For some operations, such as video-related services, during its request or return processes, large-size &amp;ldquo;Binary&amp;rdquo; data will be arisen, representing the processed video or image data. Meanwhile, some operations will return large-size &amp;ldquo;String&amp;rdquo; data (such as full-text information, etc.). In this scenario, all the hot spots we see through the flame graph are on the copy of the data, so we thought, can we reduce the frequency of such copies?&lt;/p>
+For some services, such as video-related services, during its request or return processes, large-size &amp;ldquo;Binary&amp;rdquo; data will be arisen, representing the processed video or image data. Meanwhile, some services will return large-size &amp;ldquo;String&amp;rdquo; data (such as full-text information, etc.). In this scenario, all the hot spots we see through the flame graph are on the copies of the data. So we thought, can we reduce the frequency of such copies?&lt;/p>
 &lt;p>The answer is positive. Since our underlying buffer is a linked list, it is easy to insert a node in the middle of the list.&lt;/p>
 &lt;p>&lt;img src="/img/blog/buffer-linkerd-list.png" alt="!image">&lt;/p>
 &lt;p>Thus, we have taken a similar approach, when a &amp;ldquo;string&amp;rdquo; or &amp;ldquo;binary&amp;rdquo; data exists during serialization processes. First, split the node&amp;rsquo;s buffer into two segments and then insert the buffer of the &amp;ldquo;string&amp;rdquo; / &amp;ldquo;binary&amp;rdquo; objects in the middle correspondingly. This avoids the copy of large &amp;ldquo;string&amp;rdquo; / &amp;ldquo;binary&amp;rdquo; .&lt;/p>
@@ -621,9 +864,9 @@ For some operations, such as video-related services, during its request or retur
 &lt;span style="color:#000">Cap&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#000">l&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
 &lt;span style="color:#000;font-weight:bold">}))&lt;/span>
 &lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>The demonstrated code first takes the address of the string, then gives it a slice byte header, and finally converts the &amp;ldquo;string&amp;rdquo; to &amp;ldquo;[]byte&amp;rdquo; without copying the data. Note that the resulting &amp;ldquo;[]byte&amp;rdquo; is not writable, or the behavior is undefined.&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The meaning of this demonstrated code is to take the address of the string first, and then give it a slice byte header, so that the &amp;ldquo;string&amp;rdquo; can be converted into &amp;ldquo;[]byte&amp;rdquo; without copying the data. Note that the resulting &amp;ldquo;[]byte&amp;rdquo; is not writable, or the behavior is undefined.&lt;/p>
 &lt;p>&lt;strong>Pre-Calculation&lt;/strong>&lt;br>
-Some services support transmissions of large data package, which incurs considerable serialization / deserialization overhead. Generally, large packets are associated with the large size of the container type. If the buffer can be pre-calculated, some O(n) operations can be reduced to O(1), and further reduce the frequency of function calls. In the case of large data packages, the number of memory allocation can also be greatly reduced, bringing considerable benefits.&lt;/p>
+Some services support transmissions of large data package, which incurs considerable serialization / deserialization overhead. Generally, large packages are associated with the large size of the container type. If the buffer can be pre-calculated, some O(n) operations can be reduced to O(1), and further reduce the frequency of function calls. In the case of large data packages, the number of memory allocation can also be greatly reduced, bringing considerable benefits.&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>Base types&lt;/p>
@@ -641,7 +884,7 @@ Some services support transmissions of large data package, which incurs consider
 &lt;li>
 &lt;p>Size calculation&lt;/p>
 &lt;ul>
-&lt;li>The optimization mentioned above is for base types. If you first iterate over all the fields of the request during serialization, you can calculate the size of the entire request, allocate buffer in advance, and directly manipulate buffer during serialization and unsequence, so that the optimization effect can be achieved for non-base types.&lt;/li>
+&lt;li>The optimization mentioned above is for base types. If you first iterate over all the fields of the request during serialization, you can calculate the size of the entire request, allocate buffer in advance, and directly manipulate buffer during serialization and deserialization, so that the optimization effect can be achieved for non-base types.&lt;/li>
 &lt;li>Define a new &amp;ldquo;codec&amp;rdquo; interface:&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -721,19 +964,19 @@ Some services support transmissions of large data package, which incurs consider
 &lt;span style="color:#000">offset&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+=&lt;/span> &lt;span style="color:#000">bthrift&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Binary&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">WriteStructEnd&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">buf&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">offset&lt;/span>&lt;span style="color:#000;font-weight:bold">:])&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">return&lt;/span> &lt;span style="color:#000">offset&lt;/span>
 &lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="optimize-thrift-encoding-using-simd">Optimize Thrift Encoding Using SIMD&lt;/h4>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="optimizing-thrift-encoding-with-simd">Optimizing Thrift Encoding with SIMD&lt;/h4>
 &lt;p>&amp;ldquo;list&amp;lt;i64/i32&amp;gt;&amp;rdquo; is widely used in the company to carry the ID list, and the encoding method of &amp;ldquo;list&amp;lt;i64/i32&amp;gt;&amp;rdquo; is highly consistent with the rule of vectorization. Thus, we use SIMD to optimize the encoding process of list&amp;lt;i64/i32&amp;gt;.&lt;/p>
-&lt;p>We implement &amp;ldquo;avx2&amp;rdquo; to optimize the encoding process, and the optimized results are significant. When dealing with large amounts of data, the performance can be improved by 6 times for i64 and 12 times for i32. In the case of small data volume, the improvement is more obvious, which achieves 10 times for i64 and 20 times for I32.&lt;/p>
+&lt;p>We implement &amp;ldquo;avx2&amp;rdquo; to improve the encoding process, and the improved results are significant. When dealing with large amounts of data, the performance can be improved by 6 times for i64 and 12 times for i32. In the case of small data volume, the improvement is more obvious, which achieves 10 times for i64 and 20 times for I32.&lt;/p>
 &lt;h4 id="reducing-function-calls">Reducing Function Calls&lt;/h4>
 &lt;p>&lt;strong>inline&lt;/strong>&lt;br>
-The purpose of &amp;ldquo;inline&amp;rdquo; is to expand a function call during its compliance and replace it with the implementation of the function. It improves program performance by reducing the overhead of the function call.&lt;/p>
-&lt;p>&amp;ldquo;inline&amp;rdquo; can&amp;rsquo;t be implemented on all functions in Go. Run the process with the argument - (gflags=&amp;quot;-m&amp;quot;) to display the functions that are inline. The following conditions cannot be inlined:&lt;/p>
+The purpose of &amp;ldquo;inline&amp;rdquo; is to expand a function call during its compilation and replace it with the implementation of the function. It improves program performance by reducing the overhead of the function call.&lt;/p>
+&lt;p>&amp;ldquo;inline&amp;rdquo; can&amp;rsquo;t be implemented on all functions in Go. Run the process with the argument - (gflags=&amp;quot;-m&amp;quot;) to display the functions that are inlined. The following conditions cannot be inlined:&lt;/p>
 &lt;ul>
 &lt;li>A function containing a loop;&lt;/li>
 &lt;li>Functions that include: closure calls, select, for, defer, coroutines created by the go keyword;&lt;/li>
-&lt;li>Functions over a certain length, by default when parsing the AST, Go applies 80 nodes. Each node consumes one unit of inline budget. For example, a = a + 1 contains five nodes: AS, NAME, ADD, NAME, LITERAL. When the overhead of a function exceeds this budget, it cannot be inlined.&lt;/li>
+&lt;li>For Functions over a certain length, by default when parsing the AST, Go applies 80 nodes. Each node consumes one unit of inline budget. For example, a = a + 1 contains five nodes: AS, NAME, ADD, NAME, LITERAL. When the overhead of a function exceeds this budget, it cannot be inlined.&lt;/li>
 &lt;/ul>
-&lt;p>You can specify the intensity (go 1.9+) of the compiler&amp;rsquo;s inlined code by specifying -l at compile time. But it is not recommended, as in our test scenario, it is buggy and does not work:&lt;/p>
+&lt;p>You can specify the intensity (go 1.9+) of the compiler&amp;rsquo;s inlined code by specifying &amp;ldquo;-l&amp;rdquo; at compile time. But it is not recommended, as in our test scenario, it is buggy and does not work:&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">&lt;span style="color:#8f5902;font-style:italic">// The debug[&amp;#39;l&amp;#39;] flag controls the aggressiveness. Note that main() swaps level 0 and 1, making 1 the default and -l disable. Additional levels (beyond -l) may be buggy and are not supported.
 &lt;/span>&lt;span style="color:#8f5902;font-style:italic">// 0: disabled
 &lt;/span>&lt;span style="color:#8f5902;font-style:italic">// 1: 80-nodes leaf functions, oneliners, panic, lazy typechecking (default)
@@ -745,7 +988,7 @@ The purpose of &amp;ldquo;inline&amp;rdquo; is to expand a function call during 
 &lt;span style="color:#0000cf;font-weight:bold">48&lt;/span>
 go &lt;span style="color:#204a87">test&lt;/span> -gcflags&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;-m=2 -l=4&amp;#39;&lt;/span> -v -test.run TestNewCodec 2&amp;gt;&lt;span style="color:#000;font-weight:bold">&amp;amp;&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">1&lt;/span> &lt;span style="color:#000;font-weight:bold">|&lt;/span> grep &lt;span style="color:#4e9a06">&amp;#34;function too complex&amp;#34;&lt;/span> &lt;span style="color:#000;font-weight:bold">|&lt;/span> wc -l
 &lt;span style="color:#0000cf;font-weight:bold">25&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>As you can see from the output above, increasing the inline intensity does reduce the &amp;ldquo;function too complex&amp;rdquo;. Following are the benchmark results:&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>As you can see, from the output above, increasing the inline intensity does reduce the &amp;ldquo;function too complex&amp;rdquo;. Following are the benchmark results:&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -891,11 +1134,11 @@ Go 1.13.5 darwin/amd64 on a 2.5 GHz Intel Core i7 16GB&lt;/p>
 &lt;li>In the data exchange format, pointer (&amp;ldquo;offset&amp;rdquo; at the data memory) mechanism is used to store data at any location in the contiguous memory, so that data in the structure can be read and written in any order.
 &lt;ul>
 &lt;li>Fixed-size fields of a structure are rearranged so that they are stored in contiguous memory.&lt;/li>
-&lt;li>Fields with indeterminate size of a structure (e.g. list), are represented by a fixed-size pointer that stores information including the location of the data.
-First of all, &amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; has no Go language structure as an intermediate carrier, which can reduce a copy. Then, &amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; operates on a contiguous memory, and the read and write of coded data can be completed at once. Because of these two reasons, Cap &amp;lsquo;n Proto has excellent performance.&lt;/li>
+&lt;li>Fields with indeterminate size of a structure (e.g. list), are represented by a fixed-size pointer that stores information including the location of the data.&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
+&lt;p>First of all, &amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; has no Go language structure as an intermediate carrier, which can reduce a copy. Then, &amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; operates on a contiguous memory, and the read and write of coded data can be completed at once. Because of these two reasons, Cap &amp;lsquo;n Proto has excellent performance.&lt;/p>
 &lt;p>Here are the benchmarks of &amp;ldquo;Thrift&amp;rdquo; and &amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; for the same data structure. Considering that &amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; presets the codec operation, we compare the complete process including data initialization. That is, structure data initialization + (serialization) + write buffer + read from buffer + (deserialization) + read from structure.&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-Thrift" data-lang="Thrift">&lt;span style="color:#204a87;font-weight:bold">struct&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#000">MyTest&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#000;font-weight:bold">{&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
 &lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#0000cf;font-weight:bold">1&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">i64&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#000">Num&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
@@ -943,7 +1186,7 @@ First of all, &amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; has no Go language st
 &lt;p>(deserialization) + read data, depending on the size of data package,&amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; performance is about 8-9 times better than &amp;ldquo;Thrift&amp;rdquo;. Write data + (serialization), depending on the size of data package, &amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; performance is approximately 2-8 times better than &amp;ldquo;Thrift&amp;rdquo;. Overall performance of &amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; is approximately 4-8 times better than &amp;ldquo;Thrift&amp;rdquo;.&lt;/p>
 &lt;p>Previously, we discussed the advantages of &amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo;. We will then summarize some problems existing in &amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo;:&lt;/p>
 &lt;ul>
-&lt;li>One problem with the contiguous memory of Cap &amp;lsquo;n Proto is that when the data of variable size is resized and the required space is larger than the original space, the space of the original data can only be reallocated later. As a result, the original space becomes a hole that cannot be removed. This problem gets worse as the call link is resized, and can only be solved with strict constraints throughout the link: avoid resizing fields with indefined size, and when resize is necessary, rebuild a structure and make a deep copy of the data.&lt;/li>
+&lt;li>One problem with the contiguous memory of Cap &amp;lsquo;n Proto is that when the data of variable size is resized, and the required space is larger than the original space, the space of the original data can only be reallocated later. As a result, the original space becomes a hole that cannot be removed. This problem gets worse as the call link is resized, and can only be solved with strict constraints throughout the link: avoid resizing variable size fields, and when resize is necessary, rebuild a structure and make a deep copy of the data.&lt;/li>
 &lt;li>&amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; has no Go language structure as an intermediate carrier, so all fields can only be read and written through the interface, resulting in poor user experience.&lt;/li>
 &lt;/ul>
 &lt;h3 id="thrift-protocols-compatible-copy-free-serialization">Thrift Protocol‘s Compatible Copy-free Serialization&lt;/h3>
@@ -951,14 +1194,14 @@ First of all, &amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; has no Go language st
 &lt;p>&amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; is a benchmark for copy-free serialization, so let&amp;rsquo;s see if the optimizations on &amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; can be applied to Thrift:&lt;/p>
 &lt;ul>
 &lt;li>Nature is the core of copy-free serialization, which does not use Go structure as intermediate carriers to reduce one copy. This optimization is not about a particular protocol and can be applied to any existing protocol (So it&amp;rsquo;s naturally compatible with the Thrift protocol), but the user experience of &amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; reflects that it needs to be carefully polished.&lt;/li>
-&lt;li>&amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; is operated on a contiguous memory. The read &amp;amp; write of the encoded data can be completed at once. &amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; can operate on contiguous memory because there is a pointer mechanism that allows data to be stored anywhere, allowing fields to be written in any order without affecting decoding. However, on the one hand, it is very likely to leave a hole in resize due to misoperation on contiguous memory. Besides, &amp;ldquo;Thrift&amp;rdquo; has no pointer alike mechanism, so it has stricter requirements on data layout. Here are two ways to approach such problems:
+&lt;li>&amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; is operated on a contiguous memory. The read &amp;amp; write of the encoded data can be completed at once. &amp;ldquo;Cap &amp;lsquo;n Proto&amp;rdquo; can operate on contiguous memory because there is a pointer mechanism that allows data to be stored anywhere, allowing fields to be written in any order without affecting decoding. However, it is very likely to leave a hole in the resize due to misoperation on contiguous memory. Besides, &amp;ldquo;Thrift&amp;rdquo; has no pointer alike mechanism, so it has stricter requirements on data layout. Here are two ways to approach such problems:
 &lt;ul>
-&lt;li>Insist on contiguous memory operation, while imposing strict regulations on users&amp;rsquo; usage: 1. Resize operation must rebuild the data structure 2. When a structure is nested, there are strict requirements on the order in which the fields are written (we can think of it as unfolding a nested structure from the outside in, and being written in the same order) . In addition, due to TLV encoding such as Binary, when writing begins for each nesting, it requires declaration (such as &amp;ldquo;StartWriteFieldX&amp;rdquo;).&lt;/li>
-&lt;li>Operating not entirely in contiguous memory, alterable fields are allocated a separate piece of memory. Since memory is not completely contiguous, the write operation can&amp;rsquo;t complete the output at once. In order to get closer to the performance of writing data at once, we adopted a linked buffer scheme. On the one hand, when the variable field resize occurs, only one node of the linked buffer is replaced, and there is no need to reconstruct the structure like &amp;ldquo;Cap &amp;lsquo;n Proto”. On the other hand, there is no need to clarify the actual structure like &amp;ldquo;Thrift&amp;rdquo; when the output is needed, just write the buffer on the link.
-To summarize what we have determined previously: 1. Do not use Go structure as the intermediate carrier, directly operate the underlying memory through the interface, and complete the codec at the same time of &amp;ldquo;Get/Set&amp;rdquo;. 2. Data is stored through a linked buffer.&lt;/li>
+&lt;li>Insist on operating in contiguous memory, while imposing strict regulations on users&amp;rsquo; usage: 1. Resize operation must rebuild the data structure; 2. When a structure is nested, there are strict requirements on the order in which the fields are written (we can think of it as unfolding a nested structure from the outside in, and being written in the same order) . In addition, due to TLV encoding such as Binary, when writing begins for each nesting, it requires declaration (such as &amp;ldquo;StartWriteFieldX&amp;rdquo;).&lt;/li>
+&lt;li>Operating not entirely in contiguous memory, alterable fields are allocated a separate piece of memory. Since memory is not completely contiguous, the write operation can&amp;rsquo;t complete the output at once. In order to get closer to the performance of writing data at once, we adopted a linked buffer scheme. On the one hand, when the variable field resize occurs, only one node of the linked buffer is replaced, and there is no need to reconstruct the structure like &amp;ldquo;Cap &amp;lsquo;n Proto”. On the other hand, there is no need to clarify the actual structure like &amp;ldquo;Thrift&amp;rdquo; when the output is needed, just write the buffer on the link.&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
+&lt;p>To summarize what we have determined previously: 1. Do not use Go structure as the intermediate carrier, directly operate the underlying memory through the interface, and complete the codec at the same time of &amp;ldquo;Get/Set&amp;rdquo;. 2. Data is stored through a linked buffer.&lt;/p>
 &lt;p>Then let&amp;rsquo;s take a look at the remaining issues:&lt;/p>
 &lt;ul>
 &lt;li>Degradation of the user experience caused by not using Go structures.
@@ -1097,11 +1340,11 @@ To summarize what we have determined previously: 1. Do not use Go structure as t
 &lt;/table>
 &lt;p>Summary of the test results:&lt;/p>
 &lt;ul>
-&lt;li>In small data package scenario, performance of non-serialization is poorer - about 85% of the &amp;ldquo;FastWrite/FastRead &amp;rsquo;s&amp;rdquo; performance .&lt;/li>
+&lt;li>In small data package scenario, performance of non-serialization is poorer - about 85% of FastWrite/FastRead&amp;rsquo;s performance.&lt;/li>
 &lt;li>In large data package scenario, the performance of non-serialization is better. When processing packages larger than 4K, the performance of non-serialization is 7%-40% better compared with &amp;ldquo;FastWrite/FastRead&amp;rdquo;.&lt;/li>
 &lt;/ul>
 &lt;h2 id="postscript">Postscript&lt;/h2>
-&lt;p>Hope the above sharing can be helpful to the community. At the same time, we are also trying to share memory-based IPC, io_uring, TCP zero copy, RDMA, etc., to better improve Kitex performance; We will also focus on optimizing the communication under the contexts of same device and container. Welcome to join us and contribute to Go ecology together!&lt;/p>
+&lt;p>Hope the above sharing can be helpful to the community. At the same time, we are trying to share memory-based IPC, io_uring, TCP zero copy, RDMA, etc., to better improve Kitex performance. And we will also focus on improving the communication scenarios of the same device and container. Welcome to join us and contribute to Go ecology together!&lt;/p>
 &lt;h2 id="reference">Reference&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/alecthomas/go_serialization_benchmarks">https://github.com/alecthomas/go_serialization_benchmarks&lt;/a>&lt;/li>
